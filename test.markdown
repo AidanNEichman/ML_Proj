@@ -1,119 +1,54 @@
 
 Calling yarn x generate-presentation...
 
-# Calculating Equilibrium Concentrations
+# Introduction
+Hello everyone, welcome to the AP Chemistry lecture on the Structure of Ionic Solids. In this lesson, we will discuss the different aspects of ionic solids and how they form. Ionic solids are a type of crystal that is formed from ions that are held together by ionic bonds. These solids have characteristic physical and chemical properties that make them unique from other types of solids. Let us dive into the main contents of this lecture.
 
-## Introduction
+# Main Contents
+## Definition
+Ionic solids are crystals that are formed from ionic bonds between oppositely charged ions. They possess high melting points and are often brittle. Examples of ionic solids include NaCl, MgO, and CaF2.
 
-Hello everyone, welcome to the Karu lesson on Calculating Equilibrium Concentrations from Icy Tutors. In this lesson, we will be discussing the concept of calculating equilibrium concentrations. Equilibrium is a state of balance where the rates of the forward and reverse reactions are equal. By understanding how to calculate equilibrium concentrations, we can determine how much of each reactant and product is present in a chemical reaction at equilibrium.
+## Crystal Lattice
+Ionic solids exhibit a repeating pattern of ions in three dimensions, known as a crystal lattice. This is due to the strong electrostatic attraction between positive and negative ions that causes them to arrange themselves into a regular pattern. The crystal lattice of an ionic solid can be described as a regular arrangement of cations and anions.
 
-## Units
+## Coordination Number
+Coordination number refers to the number of ions surrounding an ion in an ionic solid. It plays a crucial role in determining the overall structure of the solid. In general, the higher the coordination number, the more complex the structure of the solid. The coordination number of an ion is determined by its size and the distance between other ions. 
 
-### Equilibrium Constant, K 
+## Unit cell
+The unit cell is the smallest repeating unit of the crystal lattice that contains the same arrangement of ions. It is used to describe the basic structure of an ionic solid.
 
-The equilibrium constant, K, relates the concentrations of reactants and products at equilibrium. It is equal to the product of the concentrations of the products, raised to their stoichiometric coefficients, divided by the product of the concentrations of reactants raised to their stoichiometric coefficients.
+## Simple Ionic Structures
+Simple ionic structures are those in which all ions occupy one type of site in the lattice. These structures consist of two types of ions, a cation and an anion, arranged in an alternating pattern. Examples of simple ionic structures include rock salt, cesium chloride, and zinc blende.
 
-$$K=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
+## Complex Ionic Structures
+Complex ionic structures are those in which different types of ions occupy different types of sites in the lattice. They possess a higher coordination number than simple ionic structures. Examples of complex ionic structures include perovskite, spinel, and garnet.
 
-where a, b, c, and d are the stoichiometric coefficients of the reactants and products A, B, C, and D, respectively.
+## Common Ionic Defects
+Ionic solids often exhibit defects in their crystal structure due to missing or extra ions. These defects can significantly affect the physical and chemical properties of the solid. Some common ionic defects include Schottky defects, Frenkel defects, and impurity defects.
 
-### Equilibrium Concentrations
+# Examples
+Let us now solve some example problems to gain more understanding of the concept. 
 
-We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The equilibrium concentrations depend on the initial concentrations of the reactants and the equilibrium constant. If K > 1, the equilibrium lies to the right, meaning that the product concentration is greater than the reactant concentration. If K < 1, the equilibrium lies to the left, meaning that the reactant concentration is greater than the product concentration. If K = 1, the reaction is at equilibrium.
+## Example 1
+What is the coordination number of NaCl? 
 
-Suppose we have the following chemical reaction:
-$$A + B \rightarrow C + D$$
+Solution: 
+Each Na+ ion is surrounded by six Cl- ions and each Cl- ion is surrounded by six Na+ ions. Therefore, the coordination number for NaCl is 6.
 
-The equilibrium constant for the reaction is:
+## Example 2
+What is the unit cell for CsCl? 
 
-$$K=\frac{[C][D]}{[A][B]}$$
+Solution: 
+The unit cell for CsCl is body-centered cubic, which contains one Cs+ ion at the center and eight Cl- ions at the corners.
 
-Suppose the initial concentration of A is 0.1 M, the initial concentration of B is 0.2 M, and the concentration of C is initially zero. We want to find the equilibrium concentration of C when the equilibrium constant is K = 4.
+## Example 3
+What is the coordination number for MgO? 
 
-To solve for the equilibrium concentration of C, we can use the equilibrium constant expression and an ICE table. An ICE table is a table that lists the initial concentration of each species, the change in concentration of each species, and the equilibrium concentration of each species.
+Solution: 
+Mg2+ ion is smaller than most cations, while O2- ion is larger than most anions. MgO has an octahedral arrangement which means the Mg atoms are surrounded by six O atoms. Therefore, the coordination number is 6.
 
-|           | A   | B   | C   | D   |
-|-----------|-----|-----|-----|-----|
-| Initial   | 0.1 | 0.2 | 0   | 0   |
-| Change    | -x  | -x  | +x  | +x  |
-| Equilibrium| 0.1-x| 0.2-x| x   | x   |
+# Conclusion
+In conclusion, we have learned that ionic solids are crystals that are formed from oppositely charged ions, held together by ionic bonds. These solids have characteristic physical and chemical properties, and their structure can be described as a regular arrangement of cations and anions. We have also discussed the different aspects of ionic solids, including crystal lattice, coordination number, unit cell, simple and complex ionic structures, and common ionic defects. Solving example problems further enhances our understanding of the concept. I hope that this lecture was informative and helpful. Thank you for tuning in!
 
-Plugging these values into the equilibrium constant expression, we get:
-
-$$4 = \frac{x^2}{(0.1-x)(0.2-x)}$$
-
-Solving for x, we get:
-
-$x = 0.144 M$
-
-Therefore, the equilibrium concentration of C is:
-
-$$[C]_{eq} = x = 0.144 M$$
-
-### Reaction Quotient, Q
-
-The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. If Q is less than K, the reaction will proceed forward to reach equilibrium. If Q is greater than K, the reaction will proceed in reverse to reach equilibrium. If Q equals K, the reaction is at equilibrium.
-
-$$Q=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
-
-### Le Châtelier's Principle
-
-Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. 
-
-Suppose we have the following chemical reaction:
-$$A + B \rightleftharpoons C + D$$
-
-#### Changes in Concentration
-
-If we add more of a reactant, the equilibrium will shift to the right to consume the added reactant. If we remove a product, the equilibrium will shift to the right to produce more of the removed product.
-
-If we add more of a product, the equilibrium will shift to the left to consume the added product. If we remove a reactant, the equilibrium will shift to the left to produce more of the removed reactant.
-
-#### Changes in Pressure and Volume
-
-If the pressure on a system is increased, the system will shift in the direction that will reduce the pressure. If the pressure on a system is decreased, the system will shift in the direction that will increase the pressure.
-
-#### Changes in Temperature
-
-If the temperature of a system is increased, the system will shift in the direction that will consume heat. If the temperature of a system is decreased, the system will shift in the direction that will produce heat.
-
-## Example Problem
-
-Suppose we have the following chemical reaction:
-$$N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$$
-
-At a certain temperature, the equilibrium constant for the reaction is K = 0.5. If we start with 0.2 M of N2 and 0.3 M of H2, what are the equilibrium concentrations of each species?
-
-#### Solution
-
-We can use an ICE table to determine the equilibrium concentrations of each species.
-
-|           | N2  | H2  | NH3 |
-|-----------|-----|-----|-----|
-| Initial   | 0.2 | 0.3 | 0   |
-| Change    | -3x | -x  | +2x |
-| Equilibrium| 0.2 - 3x | 0.3 - x | 2x |
-
-Plugging these values into the equilibrium constant expression, we get:
-
-$$0.5 = \frac{(2x)^2}{(0.2-3x)(0.3-x)^3}$$
-
-Solving for x, we get:
-
-$x = 0.0463 M$
-
-Therefore, the equilibrium concentrations of N2, H2, and NH3 are:
-
-$$[N_2]_{eq} = 0.2 - 3x = 0.066 M$$
-
-$$[H_2]_{eq} = 0.3 - x = 0.254 M$$
-
-$$[NH_3]_{eq} = 2x = 0.093 M$$
-
-
-## Conclusion
-
-In conclusion, calculating equilibrium concentrations is an important concept in understanding chemical equilibria. We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. Remember to use an ICE table when solving equilibrium concentration problems and to always check to see if the reaction is at equilibrium.
-
-Total time taken: 1.982 minute(s)
+Total time taken: 1.267 minute(s)
 
