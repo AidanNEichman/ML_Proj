@@ -2,118 +2,87 @@
 Calling yarn x generate-presentation...
 
 # Introduction
-Hello, and welcome to today's AP Chemistry lecture on Solubility. Solubility is a fundamental concept in chemistry, and it is essential to understand if you want to excel in your AP Chemistry course. In this lecture, we will cover everything you need to know about solubility, from the definition of solubility and its units to the factors that affect solubility and how to calculate solubility. By the end of this lecture, you will have a solid understanding of solubility and be ready to tackle any solubility problem thrown your way.
 
-## Definition of Solubility
-Solubility is the measure of a substance's ability to dissolve in a solvent. It is usually expressed as the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature and pressure. The units of solubility depend on the units of the solute and solvent, but they are usually expressed as grams of solute per liter of solvent ($$\frac{\text{g}}{\text{L}}$$).
+Hello everyone, and welcome to the Karu lesson on Gibbs free energy and thermodynamic favorability. I am your tutor from Icy Tutors, and I am excited to discuss this concept with you today. Gibbs free energy is a fundamental concept in analytical chemistry that helps us understand the direction in which chemical reactions proceed. It is essential in determining whether a reaction is thermodynamically favorable or not. In this lesson, we will explore the concept of Gibbs free energy, thermodynamic favorability, and how to calculate these values.
 
-## Factors Affecting Solubility
-Several factors affect solubility, including temperature, pressure, and the nature of the solute and solvent. 
+# Units
 
-### Temperature
-In general, the solubility of most solids in liquids increases with temperature, while the solubility of most gases in liquids decreases with temperature. This is because the increase in temperature increases the kinetic energy of the solute and solvent molecules, making it easier for the solute to dissolve in the solvent. 
+## The Concept of Gibbs Free Energy
+Gibbs free energy, represented by the letter G, is the maximum amount of energy that can be used to do work in a system at constant temperature and pressure. It is the energy that is available to initiate a chemical or physical change in a system. The Gibbs free energy of a reaction, ΔG, is calculated by subtracting the product of temperature and entropy from the change in enthalpy of the reaction. 
 
-Example Problem: Calculate the solubility of potassium chloride (KCl) in water at 50°C, given that its solubility at 25°C is 34.7 g/100 mL and its enthalpy of solution is 17.8 kJ/mol.
+$$\Delta G = \Delta H - T\cdot\Delta S$$
 
-Solution:
-The first step is to write the chemical equation for the dissolution of KCl in water:
-KCl(s) → K+(aq) + Cl-(aq)
+Where ΔH is the change in enthalpy, T is the temperature, and ΔS is the change in entropy. 
 
-Next, we need to use the enthalpy of solution and the temperature difference to calculate the change in entropy. We can use the following equation:
-ΔH = ΔS x T
+### Example Problem
+Calculate the Gibbs free energy for the reaction: 
 
-ΔH = 17.8 kJ/mol
-T1 = 25°C + 273 = 298 K
-T2 = 50°C + 273 = 323 K
+2H2(g) + O2(g) -> 2H2O(g) 
 
-ΔS = ΔH / T = (-17800 J/mol) / (298 K - 273 K) = -712 J/K mol
+Given that ΔH = -484 kJ/mol, and ΔS = -198 J/mol*K at 298 K.
 
-Now, we can use the following equation to calculate the solubility at 50°C:
-log(S2/S1) = -(ΔHsol/R) x (1/T2 - 1/T1)
+#### Solution
+- Convert ΔS from J/mol*K to kJ/mol*K: ΔS = -0.198 kJ/mol*K
+- Plug in the values in the equation: 
 
-S1 = 34.7 g/100 mL = 347 g/L
-R = 8.314 J/mol K
-T1 = 298 K
-T2 = 323 K
+$$\Delta G = -484 \text{ kJ/mol} - 298 \text{ K} \cdot (-0.198 \text{ kJ/mol*K})$$
 
-log(S2/347) = -(17800 J/mol / 8.314 J/mol K) x (1/323 K - 1/298 K)
-log(S2/347) = -4.966
-S2/347 = 10^(-4.966)
-S2 = 0.0031 g/mL = 31 g/L
+- Solve for ΔG: 
 
-Therefore, the solubility of KCl in water at 50°C is 31 g/L.
+$$\Delta G = -484 \text{ kJ/mol} + 59 \text{ kJ/mol} = -425 \text{ kJ/mol}$$
 
-### Pressure
-In general, the solubility of gases in liquids increases with pressure. This is because the increase in pressure increases the partial pressure of the gas above the liquid, which makes it easier for the gas to dissolve in the liquid.
+Therefore, the Gibbs free energy for this reaction is -425 kJ/mol, indicating a spontaneous reaction.
 
-Example Problem: Calculate the solubility of oxygen (O2) in water at a partial pressure of 1 bar and 20°C, given that the solubility of oxygen in water at 1 bar and 25°C is 0.046 g/L.
+## Thermodynamic Favorability
+A spontaneous reaction is one that occurs naturally without any external influence. A reaction is said to be thermodynamically favorable if it has a negative Gibbs free energy value, meaning that the reaction can proceed spontaneously without the need for additional energy input. Conversely, a reaction with a positive Gibbs free energy value is thermodynamically unfavorable, meaning that energy must be added to the system for the reaction to occur. 
 
-Solution:
-We can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
-C = kH x P
+### Example Problem
+Determine the spontaneity of the following reaction at 298K, given the standard enthalpy and entropy values:
 
-C = solubility of oxygen in water
-kH = Henry's Law constant
-P = partial pressure of oxygen
+2SO2(g) + O2(g) -> 2SO3(g)
 
-We need to convert the temperature from Celsius to Kelvin:
-T1 = 20°C + 273 = 293 K
+Given that ΔH = -197 kJ/mol and ΔS = -168 J/mol*K.
 
-We can use the following equation to calculate the Henry's Law constant:
-kH = C/P
+#### Solution
+- Convert ΔS to kJ/mol*K: ΔS = -0.168 kJ/mol*K.
+- Plug in the values in the equation: 
 
-kH = (0.046 g/L) / (1 bar) = 0.046 L/g
+$$\Delta G = -197 \text{ kJ/mol} - 298\text{ K} \cdot (-0.168 \text{ kJ/mol*K})$$
 
-Now, we can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
-C = kH x P = (0.046 L/g) x (1 bar) = 0.046 g/L
+- Solve for ΔG: 
 
-Therefore, the solubility of oxygen in water at a partial pressure of 1 bar and 20°C is 0.046 g/L.
+$$\Delta G = -197 \text{ kJ/mol} + 50.064 \text{ kJ/mol} = -147.94 \text{ kJ/mol}$$
 
-## Calculating Solubility
-There are several ways to calculate solubility, including using solubility curves and using the solubility product constant (Ksp).
+Since ΔG is negative, this reaction is thermodynamically favorable and will proceed spontaneously.
 
-### Solubility Curves
-Solubility curves are plots of solubility versus temperature. They allow you to determine the solubility of a solute at any temperature within the range of the curve. To use a solubility curve, you simply locate the temperature on the x-axis and follow the curve up or down to the solubility value on the y-axis.
+## Relationship between Equilibrium Constant and Gibbs Free Energy
+The equilibrium constant, K, is a measure of the ratio of the concentrations of products to reactants in a chemical reaction at equilibrium. The Gibbs free energy change for a reaction, ΔG, is related to the equilibrium constant through the following equation:
 
-Example Problem: Use the following solubility curve for potassium nitrate (KNO3) in water to determine the solubility of KNO3 in water at 40°C.
-(Note: The solubility curve is not provided in this script)
+$$\Delta G = -RT\ln K$$
 
-Solution:
-Locate the temperature of 40°C on the x-axis and follow the curve up to the solubility value on the y-axis. The solubility of KNO3 in water at 40°C is approximately 90 g/100 mL.
+Where R is the gas constant, T is temperature in Kelvin, and ln is the natural logarithm. 
 
-### Solubility Product Constant (Ksp)
-The solubility product constant (Ksp) is the equilibrium constant for the dissolution of a solute in a solvent. It is defined as the product of the concentrations of the ions in the solution, each raised to the power of its stoichiometric coefficient.
+### Example Problem
+Determine the equilibrium constant for the following reaction at 25°C, given the Gibbs free energy value is -13.8 kJ/mol:
 
-Example Problem: Calculate the solubility product constant (Ksp) for silver chloride (AgCl), given that its solubility in water is 1.3 x 10^-5 g/L.
+2NO(g) + Cl2(g) -> 2NOCl(g)
 
-Solution:
-The chemical equation for the dissolution of AgCl in water is:
-AgCl(s) ↔ Ag+(aq) + Cl-(aq)
+#### Solution
+- Convert the temperature to Kelvin: T = 298K.
+- Convert Gibbs free energy to J/mol: ΔG = -13800 J/mol.
+- Plug in the values in the equation: 
 
-The solubility of AgCl in water is 1.3 x 10^-5 g/L. We can use this value to calculate the concentrations of the Ag+ and Cl- ions.
+$$-13800 \text{ J/mol} = -8.31 \text{ J/mol*K} \cdot 298 \text{ K} \cdot \ln K$$
 
-AgCl(s) ↔ Ag+(aq) + Cl-(aq)
-1 mole 1 mole 1 mole
-===========
-x --------- -----------
-1 L 1 L
+- Solve for K: 
 
-The molar solubility x is the concentration of each ion.
+$$K = e^{\frac{-13800 \text{ J/mol}}{(-8.31 \text{ J/mol*K} \cdot 298 \text{ K})}} = 1.61 \times 10^5$$
 
-Ag+ = x
-Cl- = x
+Thus, the equilibrium constant for this reaction is 1.61 × 10^5.
 
-The Ksp expression is:
-Ksp = [Ag+][Cl-]
+# Conclusion
 
-Ksp = x^2
+In summary, Gibbs free energy is a critical concept in analytical chemistry that determines the thermodynamic favorability of a chemical reaction. If ΔG is negative, the reaction will proceed spontaneously and is said to be thermodynamically favorable. If ΔG is positive, the reaction is thermodynamically unfavorable, and energy must be added to the system for the reaction to occur. The relationship between ΔG and equilibrium constant K can also be used to determine the equilibrium position of a reaction. I hope you now have a better understanding of Gibbs free energy and thermodynamic favorability. Good luck with your chemistry studies!
 
-Ksp = (1.3 x 10^-5)^2 = 1.69 x 10^-10
-
-Therefore, the solubility product constant (Ksp) for silver chloride (AgCl) is 1.69 x 10^-10.
-
-## Conclusion
-Solubility is a crucial concept in chemistry, and it is essential to understand for any chemistry student. In this lecture, we covered the definition of solubility, the factors that affect solubility, and how to calculate solubility. We looked at temperature and pressure as factors affecting solubility and saw how to calculate the solubility of substances at a given temperature and pressure. Finally, we learned about solubility product constant (Ksp) and how it is used to describe the solubility of a solute in a specific solvent. With these concepts in mind, you are well-prepared to tackle any solubility problem thrown your way. Good luck!
-
-Total time taken: 2.496 minute(s)
+Total time taken: 1.611 minute(s)
 
