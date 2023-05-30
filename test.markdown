@@ -1,98 +1,47 @@
-# Introduction
-Hello everyone, and welcome to this Grade 6 Math tutorial on Number Sequences. In this lesson, we will explore the fascinating world of number patterns, where we will learn about how numbers can create an organized sequence. Whether you want to learn more about basic patterns or complex sequences, this tutorial is perfect for you!
 
-# Main Contents/Units
-## Understanding Number Sequences in Mathematics
-Before we dive deep into Number Sequences, it is important to understand what numbers are and how they work in mathematics. Numbers are symbols that represent values, and the order of these symbols is what determines the value of the number. For example, the number “10” is a symbol that represents the value of ten. 
+Calling yarn x generate-presentation...
 
-Numbers can be used for various purposes in Math. For instance, they can be used for counting, measurement, quantities, and more. Numbers can also form a sequence, which is an ordered set of numbers that follow a specific pattern. 
+Hello everyone, welcome to the Karu lesson on Two-way Tables & Association between Variables from Icy Tutors.
 
-## Types of Number Sequences
-There are various types of number sequences, and they can be classified in different ways. One way is by the pattern they follow. The most common types include:
+Two-way tables are cross-classification tables that organize data in rows and columns. They allow us to visually represent the relationship between two categorical variables and their corresponding frequencies. In this lesson, we will be discussing the concept of two-way tables and how to use them to identify and analyze the association between variables.
 
-### Arithmetic Sequence
-An arithmetic sequence is a sequence of numbers in which each successive number is obtained by adding the same constant number (d) to the previous number (a). It can be represented by the formula:
+Before we move forward, let's clarify what categorical variables are. Categorical variables are variables whose observations are divided into categories or groups. Examples of categorical variables include gender, hair color, favorite food, etc.
 
-$$ a_n = a + (n - 1)d $$
+Now, let's dive into two-way tables. A two-way table is a table which displays the frequencies of two categorical variables in specific categories. The rows of the table represent one variable, while the columns represent the other variable. Here's a simple example of a two-way table:
 
-Where a is the first term, n is the term number, and d is the common difference between the terms.
+$$ \begin{matrix} & Sport & Movies & Music \\ Male & 20 & 15 & 5 \\ Female & 10 & 25 & 15 \end{matrix} $$ 
 
-For example, the sequence 1, 3, 5, 7, 9, 11, … is an arithmetic sequence with a common difference of 2.
+In this example, we have two categorical variables: gender (male or female) and preferred form of entertainment (sport, movies, or music). The table displays the frequencies of each gender's preferred form of entertainment. We can use this table to determine if there is an association between gender and preferred form of entertainment.
 
-### Geometric Sequence
-A geometric sequence is a sequence of numbers in which each successive number is obtained by multiplying the previous number (a) by the same constant number (r). It can be represented by the formula:
+Now let's talk about association. Association is the relationship or connection between two variables. In the context of a two-way table, it refers to whether or not there is a relationship between the two categorical variables being studied. An association can be positive, negative, or neutral. A positive association occurs when the frequency of one variable increases as the frequency of the other variable increases. A negative association occurs when the frequency of one variable decreases as the frequency of the other variable increases. A neutral association occurs when there is no relationship between the two variables.
 
-$$ a_n = a * r^{n - 1} $$
+To determine the association between two variables in a two-way table, we can calculate the conditional frequencies. Conditional frequencies are the frequency of one variable for each category of the other variable. We can calculate the conditional frequency by dividing the frequency of the cell by the total frequency of the row or column it belongs to. Here's how we can calculate the conditional frequency for the first cell in the table above:
 
-Where a is the first term, n is the term number, and r is the common ratio between the terms.
+$$\frac{20}{20+15+5}=0.57 $$
 
-For example, the sequence 2, 4, 8, 16, 32, 64, … is a geometric sequence with a common ratio of 2.
+This means that 57% of males prefer sports as their form of entertainment.
 
-### Fibonacci Sequence
-The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding numbers, starting from 0 and 1. It can be represented by the formula:
+Now let's work through an example problem. Consider the following two-way table:
 
-$$ F_n = F_{n-1} + F_{n-2} $$
+$$ \begin{matrix} & High School & College & University \\ Male & 50 & 20 & 10 \\ Female & 45 & 30 & 25 \end{matrix} $$ 
 
-Where F is the Fibonacci number and n is the position of the number in the sequence.
+We want to determine if there is an association between gender and level of education.
 
-For example, the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, … is a Fibonacci sequence.
+First, we can begin by calculating the row percentages. Row percentages are the percentages of each gender's frequency for each level of education. Here are the row percentages:
 
-## How to Find the Next Term in a Sequence
-Mathematicians use different methods to calculate the next term in a sequence. Here are the most common methods:
+$$ \begin{matrix} & High School & College & University \\ Male & 62.5\% & 25\% & 12.5\% \\ Female & 50\% & 33.3\% & 16.7\% \end{matrix} $$ 
 
-### Arithmetic Sequence
-To find the next term in an arithmetic sequence, you need to add the common difference (d) to the last term in the sequence.
+From this table, we can see that a higher proportion of males are in high school compared to college or university, while a higher proportion of females are in high school or college compared to university. However, we need to calculate more to determine the association between gender and level of education. 
 
-For example, in the sequence 2, 5, 8, 11, … the common difference is 3. To find the next term, add 3 to the last term (11), which gives us 14. Therefore, the next term in the sequence is 14.
+Next, we can calculate the column percentages. Column percentages are the percentages of each level of education's frequency for each gender. Here are the column percentages:
 
-### Geometric Sequence
-To find the next term in a geometric sequence, you need to multiply the last term by the common ratio (r).
+$$ \begin{matrix} & High School & College & University \\ Male & 52.6\% & 40.0\% & 28.6\% \\ Female & 47.4\% & 60.0\% & 71.4\% \end{matrix} $$ 
 
-For example, in the sequence 3, 6, 12, 24, … the common ratio is 2. To find the next term, multiply the last term (24) by 2, which gives us 48. Therefore, the next term in the sequence is 48.
+From the column percentages, we can see that a higher proportion of males are in high school compared to females, while a higher proportion of females are in college or university compared to males. 
 
-### Fibonacci Sequence
-To find the next number in the Fibonacci sequence, you need to add the two preceding numbers.
+By comparing the row and column percentages, we can conclude that there is an association between gender and level of education. Specifically, gender and level of education are negatively associated, as the proportion of males in high school is higher than that of females, while the proportion of females in college or university is higher than that of males.
 
-For example, in the sequence 0, 1, 1, 2, 3, 5, … the two preceding numbers are 2 and 3. Adding them gives us 5, which is the next number in the sequence.
+In conclusion, two-way tables are an effective tool for visually representing the relationship between two categorical variables and their corresponding frequencies. By calculating conditional frequencies, we can identify and analyze associations between variables. Remember to always calculate both the row and column percentages in order to accurately determine the association between two variables in a two-way table.
 
-# Examples
-## Example 1
-Find the 5th term of the arithmetic sequence with the first term (a) = 3 and the common difference (d) = -2.
+Total time taken: 1.459 minute(s)
 
-Solution:
-Using the formula for an arithmetic sequence, we have:
-
-$$ a_n = a + (n - 1)d $$
-
-Substituting the values, we get:
-
-$$ a_5 = 3 + (5 - 1)(-2) = -5 $$
-
-Therefore, the 5th term of the arithmetic sequence is -5.
-
-## Example 2
-Find the 8th term of the geometric sequence with the first term (a) = 9 and the common ratio (r) = 3.
-
-Solution:
-Using the formula for a geometric sequence, we have:
-
-$$ a_n = a * r^{n-1} $$
-
-Substituting the values, we get:
-
-$$ a_8 = 9 * 3^{8-1} = 6561 $$
-
-Therefore, the 8th term of the geometric sequence is 6561.
-
-## Example 3
-Find the next number in the Fibonacci sequence after 21.
-
-Solution:
-To find the next number in the Fibonacci sequence, we need to add the last two numbers:
-
-$$ 21 + 13 = 34 $$
-
-Therefore, the next number in the sequence after 21 is 34.
-
-# Conclusion
-In conclusion, Number Sequences are an essential aspect of Mathematics that helps us understand the order and patterns in numbers. Understanding the different types of sequences and how to find the next number in a sequence can be very helpful in solving Math problems. We hope this tutorial has provided you with a comprehensive understanding of Number Sequences. Good luck with your studies!
