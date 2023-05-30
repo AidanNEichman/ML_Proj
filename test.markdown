@@ -1,119 +1,92 @@
 
 Calling yarn x generate-presentation...
 
-# Calculating Equilibrium Concentrations
+# Introduction
 
-## Introduction
+Hello everyone, and welcome to the Karu lesson on Simple Interest. Today, we will explore the exciting world of finance and learn about how we can make our money work for us. Simple Interest is an essential concept in finance, and understanding it will help us in managing our finances better.
 
-Hello everyone, welcome to the Karu lesson on Calculating Equilibrium Concentrations from Icy Tutors. In this lesson, we will be discussing the concept of calculating equilibrium concentrations. Equilibrium is a state of balance where the rates of the forward and reverse reactions are equal. By understanding how to calculate equilibrium concentrations, we can determine how much of each reactant and product is present in a chemical reaction at equilibrium.
+# Section 1: Understanding Simple Interest
 
-## Units
+Simple Interest is a way of calculating the interest on a loan or an investment. It is called "simple" because it is calculated based on the principal amount and the interest rate, without taking into account any other factors like compounding. The formula for Simple Interest can be expressed as:
 
-### Equilibrium Constant, K 
+$$\text{Simple Interest} = P \cdot r \cdot t$$
 
-The equilibrium constant, K, relates the concentrations of reactants and products at equilibrium. It is equal to the product of the concentrations of the products, raised to their stoichiometric coefficients, divided by the product of the concentrations of reactants raised to their stoichiometric coefficients.
+Where,
+- P is the principal amount
+- r is the interest rate per year (as a decimal)
+- t is the time period (in years)
 
-$$K=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
+Let's take an example to understand this better.
 
-where a, b, c, and d are the stoichiometric coefficients of the reactants and products A, B, C, and D, respectively.
+## Example 1: Calculating Simple Interest
 
-### Equilibrium Concentrations
+Suppose you loaned your friend $100 for a year at an interest rate of 10%. What is the Simple Interest that you will earn?
 
-We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The equilibrium concentrations depend on the initial concentrations of the reactants and the equilibrium constant. If K > 1, the equilibrium lies to the right, meaning that the product concentration is greater than the reactant concentration. If K < 1, the equilibrium lies to the left, meaning that the reactant concentration is greater than the product concentration. If K = 1, the reaction is at equilibrium.
+**Solution:**
 
-Suppose we have the following chemical reaction:
-$$A + B \rightarrow C + D$$
+Here, 
+- P = $100
+- r = 0.10 (10% as a decimal)
+- t = 1 (1 year)
 
-The equilibrium constant for the reaction is:
+So, 
 
-$$K=\frac{[C][D]}{[A][B]}$$
+$$\text{Simple Interest} = 100 \cdot 0.10 \cdot 1 = 10$$
 
-Suppose the initial concentration of A is 0.1 M, the initial concentration of B is 0.2 M, and the concentration of C is initially zero. We want to find the equilibrium concentration of C when the equilibrium constant is K = 4.
+Therefore, the Simple Interest earned is $10.
 
-To solve for the equilibrium concentration of C, we can use the equilibrium constant expression and an ICE table. An ICE table is a table that lists the initial concentration of each species, the change in concentration of each species, and the equilibrium concentration of each species.
+# Section 2: Finding the Total Amount
 
-|           | A   | B   | C   | D   |
-|-----------|-----|-----|-----|-----|
-| Initial   | 0.1 | 0.2 | 0   | 0   |
-| Change    | -x  | -x  | +x  | +x  |
-| Equilibrium| 0.1-x| 0.2-x| x   | x   |
+The Simple Interest formula gives us the interest earned on the principal amount, but it does not give us the total amount, which includes the principal amount and the interest earned. To find the Total Amount, we need to add the Simple Interest to the Principal Amount. The formula for Total Amount can be expressed as:
 
-Plugging these values into the equilibrium constant expression, we get:
+$$\text{Total Amount} = P + \text{Simple Interest}$$
 
-$$4 = \frac{x^2}{(0.1-x)(0.2-x)}$$
+Let's take an example to understand this better.
 
-Solving for x, we get:
+## Example 2: Finding the Total Amount
 
-$x = 0.144 M$
+Using the same example as before, what is the Total Amount that your friend will have to pay you back at the end of the year?
 
-Therefore, the equilibrium concentration of C is:
+**Solution:**
 
-$$[C]_{eq} = x = 0.144 M$$
+Here, 
+- P = $100
+- Simple Interest = $10
 
-### Reaction Quotient, Q
+So, 
 
-The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. If Q is less than K, the reaction will proceed forward to reach equilibrium. If Q is greater than K, the reaction will proceed in reverse to reach equilibrium. If Q equals K, the reaction is at equilibrium.
+$$\text{Total Amount} = 100 + 10 = 110$$
 
-$$Q=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
+Therefore, the Total Amount that your friend will have to pay you back at the end of the year is $110.
 
-### Le Châtelier's Principle
+# Section 3: Finding the Interest Rate
 
-Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. 
+Sometimes, we may know the Principal Amount, the Total Amount, and the Time Period, but we may not know the Interest Rate. In such cases, we can use the formula for Interest Rate to find out what the rate of interest was. The formula for Interest Rate can be expressed as:
 
-Suppose we have the following chemical reaction:
-$$A + B \rightleftharpoons C + D$$
+$$r = \frac{\text{Simple Interest}}{P \cdot t}$$
 
-#### Changes in Concentration
+Let's take an example to understand this better.
 
-If we add more of a reactant, the equilibrium will shift to the right to consume the added reactant. If we remove a product, the equilibrium will shift to the right to produce more of the removed product.
+## Example 3: Finding the Interest Rate
 
-If we add more of a product, the equilibrium will shift to the left to consume the added product. If we remove a reactant, the equilibrium will shift to the left to produce more of the removed reactant.
+Suppose you invested $5000 for 2 years and earned a Simple Interest of $800. What was the Interest Rate?
 
-#### Changes in Pressure and Volume
+**Solution:**
 
-If the pressure on a system is increased, the system will shift in the direction that will reduce the pressure. If the pressure on a system is decreased, the system will shift in the direction that will increase the pressure.
+Here, 
+- P = $5000
+- Simple Interest = $800
+- t = 2 years
 
-#### Changes in Temperature
+So, 
 
-If the temperature of a system is increased, the system will shift in the direction that will consume heat. If the temperature of a system is decreased, the system will shift in the direction that will produce heat.
+$$r = \frac{800}{5000 \cdot 2} = 0.08$$
 
-## Example Problem
+Therefore, the Interest Rate was 8% per year.
 
-Suppose we have the following chemical reaction:
-$$N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$$
+# Conclusion
 
-At a certain temperature, the equilibrium constant for the reaction is K = 0.5. If we start with 0.2 M of N2 and 0.3 M of H2, what are the equilibrium concentrations of each species?
+Congratulations! You have successfully learned about Simple Interest. We have covered the formula for Simple Interest, finding the Total Amount, and finding the Interest Rate. By understanding Simple Interest, you can make better financial decisions and manage your money more effectively. Keep practicing and exploring this concept, and you will soon become a finance expert. Thank you for joining me today, and I hope to see you soon for another Karu lesson.
 
-#### Solution
-
-We can use an ICE table to determine the equilibrium concentrations of each species.
-
-|           | N2  | H2  | NH3 |
-|-----------|-----|-----|-----|
-| Initial   | 0.2 | 0.3 | 0   |
-| Change    | -3x | -x  | +2x |
-| Equilibrium| 0.2 - 3x | 0.3 - x | 2x |
-
-Plugging these values into the equilibrium constant expression, we get:
-
-$$0.5 = \frac{(2x)^2}{(0.2-3x)(0.3-x)^3}$$
-
-Solving for x, we get:
-
-$x = 0.0463 M$
-
-Therefore, the equilibrium concentrations of N2, H2, and NH3 are:
-
-$$[N_2]_{eq} = 0.2 - 3x = 0.066 M$$
-
-$$[H_2]_{eq} = 0.3 - x = 0.254 M$$
-
-$$[NH_3]_{eq} = 2x = 0.093 M$$
-
-
-## Conclusion
-
-In conclusion, calculating equilibrium concentrations is an important concept in understanding chemical equilibria. We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. Remember to use an ICE table when solving equilibrium concentration problems and to always check to see if the reaction is at equilibrium.
-
-Total time taken: 1.982 minute(s)
+Total time taken: 52.914 second(s)
 
