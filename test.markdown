@@ -2,86 +2,118 @@
 Calling yarn x generate-presentation...
 
 # Introduction
+Hello, and welcome to today's AP Chemistry lecture on Solubility. Solubility is a fundamental concept in chemistry, and it is essential to understand if you want to excel in your AP Chemistry course. In this lecture, we will cover everything you need to know about solubility, from the definition of solubility and its units to the factors that affect solubility and how to calculate solubility. By the end of this lecture, you will have a solid understanding of solubility and be ready to tackle any solubility problem thrown your way.
 
-Hello everyone, welcome to the Karu lesson on **Algebraic Expressions** from Icy Tutors. Algebraic Expressions is a fundamental topic that appears in math curriculums across different grade levels, including Grade 6. In this lesson, we will explore Algebraic Expressions in detail and understand how to apply this concept to solve problems. 
+## Definition of Solubility
+Solubility is the measure of a substance's ability to dissolve in a solvent. It is usually expressed as the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature and pressure. The units of solubility depend on the units of the solute and solvent, but they are usually expressed as grams of solute per liter of solvent ($$\frac{\text{g}}{\text{L}}$$).
 
-# Units
+## Factors Affecting Solubility
+Several factors affect solubility, including temperature, pressure, and the nature of the solute and solvent. 
 
-1. What are Algebraic Expressions
-2. Like and Unlike Terms
-3. Adding and Subtracting Expressions
-4. Multiplying Expressions
-5. Dividing Expressions
+### Temperature
+In general, the solubility of most solids in liquids increases with temperature, while the solubility of most gases in liquids decreases with temperature. This is because the increase in temperature increases the kinetic energy of the solute and solvent molecules, making it easier for the solute to dissolve in the solvent. 
 
-## Unit 1: What are Algebraic Expressions ##
+Example Problem: Calculate the solubility of potassium chloride (KCl) in water at 50°C, given that its solubility at 25°C is 34.7 g/100 mL and its enthalpy of solution is 17.8 kJ/mol.
 
-Algebraic Expressions are mathematical phrases that involve variables, constants, and operations like addition, subtraction, multiplication, and division. The variables in the expressions represent unknown values, while constants like numbers are known values. The operations indicate the operations required to perform calculations with the variables and constants. Examples of Algebraic Expressions include:
+Solution:
+The first step is to write the chemical equation for the dissolution of KCl in water:
+KCl(s) → K+(aq) + Cl-(aq)
 
-$$2x + 3~~~~~~~~~~~~~~~~6a + 4b~~~~~~~~~~~~~~~~x^2 - 5x + 6$$
+Next, we need to use the enthalpy of solution and the temperature difference to calculate the change in entropy. We can use the following equation:
+ΔH = ΔS x T
 
-## Example Problem 1.1 
-Write an Algebraic Expression for the statement: "five times a number plus two."
+ΔH = 17.8 kJ/mol
+T1 = 25°C + 273 = 298 K
+T2 = 50°C + 273 = 323 K
 
-***Solution***: We can use the variable 'n' to represent the unknown number. $5n + 2$ is the Algebraic Expression that matches the given statement.
+ΔS = ΔH / T = (-17800 J/mol) / (298 K - 273 K) = -712 J/K mol
 
-## Unit 2: Like and Unlike Terms ##
+Now, we can use the following equation to calculate the solubility at 50°C:
+log(S2/S1) = -(ΔHsol/R) x (1/T2 - 1/T1)
 
-In Algebraic Expressions, terms are the parts of the expression that contain variables, constants, or a product of both. Like terms are the terms in an expression that have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. Example of like and unlike terms are:
+S1 = 34.7 g/100 mL = 347 g/L
+R = 8.314 J/mol K
+T1 = 298 K
+T2 = 323 K
 
-$$3x~~~~~~~~~~~~~~~~5x^2~~~~~~~~~~~~~~~~7y^3~~~~~~~~~~~~~~~~-2x~~~~~~~~~~~~~~~~9x^2~~~~~~~~~~~~~~~~-5xy^2$$
+log(S2/347) = -(17800 J/mol / 8.314 J/mol K) x (1/323 K - 1/298 K)
+log(S2/347) = -4.966
+S2/347 = 10^(-4.966)
+S2 = 0.0031 g/mL = 31 g/L
 
-## Example Problem 2.1
-Identify the like and unlike terms in the expression: $3a^2 + 5ab - 2a^2 + 7b$
+Therefore, the solubility of KCl in water at 50°C is 31 g/L.
 
-***Solution***: The like terms in the expression are $3a^2$ and $-2a^2$ because they both have the same power of 'a'. The unlike terms in the expression are $5ab$ and $7b$ because they have different variables.
+### Pressure
+In general, the solubility of gases in liquids increases with pressure. This is because the increase in pressure increases the partial pressure of the gas above the liquid, which makes it easier for the gas to dissolve in the liquid.
 
-## Unit 3: Adding and Subtracting Expressions ##
+Example Problem: Calculate the solubility of oxygen (O2) in water at a partial pressure of 1 bar and 20°C, given that the solubility of oxygen in water at 1 bar and 25°C is 0.046 g/L.
 
-We can add or subtract Algebraic Expressions by grouping like terms. To add or subtract the coefficients of like terms, while keeping the variable and its corresponding exponent the same. Examples of adding and subtracting Algebraic Expressions are:
+Solution:
+We can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
+C = kH x P
 
-$$5x + 3y - 2x + 5y = 3x + 8y$$
+C = solubility of oxygen in water
+kH = Henry's Law constant
+P = partial pressure of oxygen
 
-$$6a^2b + 4b - 2ab^2 + 3ab + 7a^2b^2 = 7a^2b^2 + 6a^2b + ab^2 + 4b$$
+We need to convert the temperature from Celsius to Kelvin:
+T1 = 20°C + 273 = 293 K
 
-## Example Problem 3.1
+We can use the following equation to calculate the Henry's Law constant:
+kH = C/P
 
-Simplify the expression: $2x + 5y + 3x - 2y$
+kH = (0.046 g/L) / (1 bar) = 0.046 L/g
 
-***Solution***: We group the like terms and perform addition to obtain: $(2x + 3x) + (5y - 2y) = 5x + 3y$
+Now, we can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
+C = kH x P = (0.046 L/g) x (1 bar) = 0.046 g/L
 
-##  Unit 4: Multiplying Expressions ## 
+Therefore, the solubility of oxygen in water at a partial pressure of 1 bar and 20°C is 0.046 g/L.
 
-We can multiply Algebraic Expressions by applying the distributive property of multiplication. The distributive property implies:
+## Calculating Solubility
+There are several ways to calculate solubility, including using solubility curves and using the solubility product constant (Ksp).
 
-$$(a + b) \cdot c = a \cdot c + b \cdot c$$
+### Solubility Curves
+Solubility curves are plots of solubility versus temperature. They allow you to determine the solubility of a solute at any temperature within the range of the curve. To use a solubility curve, you simply locate the temperature on the x-axis and follow the curve up or down to the solubility value on the y-axis.
 
-When multiplying two expressions, we apply the distributive property to each term in one expression with each term in the other. Example of multiplying Algebraic Expressions:
+Example Problem: Use the following solubility curve for potassium nitrate (KNO3) in water to determine the solubility of KNO3 in water at 40°C.
+(Note: The solubility curve is not provided in this script)
 
-$$(2x + 3) \cdot (4y - 1) = 8xy - 2x + 12y - 3$$
+Solution:
+Locate the temperature of 40°C on the x-axis and follow the curve up to the solubility value on the y-axis. The solubility of KNO3 in water at 40°C is approximately 90 g/100 mL.
 
-## Example Problem 4.1
+### Solubility Product Constant (Ksp)
+The solubility product constant (Ksp) is the equilibrium constant for the dissolution of a solute in a solvent. It is defined as the product of the concentrations of the ions in the solution, each raised to the power of its stoichiometric coefficient.
 
-Multiply the expressions: $5x(2x + 3y)$
+Example Problem: Calculate the solubility product constant (Ksp) for silver chloride (AgCl), given that its solubility in water is 1.3 x 10^-5 g/L.
 
-***Solution***: We apply the distributive property as: $5x \cdot 2x + 5x \cdot 3y = 10x^2 + 15xy$
+Solution:
+The chemical equation for the dissolution of AgCl in water is:
+AgCl(s) ↔ Ag+(aq) + Cl-(aq)
 
-## Unit 5: Dividing Expressions ##
+The solubility of AgCl in water is 1.3 x 10^-5 g/L. We can use this value to calculate the concentrations of the Ag+ and Cl- ions.
 
-To divide Algebraic Expressions, we can cancel out like terms by dividing their coefficients. To divide an expression by a monomial, we can separate each term and divide each coefficient separately. Example of dividing Algebraic Expressions are:
+AgCl(s) ↔ Ag+(aq) + Cl-(aq)
+1 mole 1 mole 1 mole
+===========
+x --------- -----------
+1 L 1 L
 
-$$\frac{12km + 15kn}{3k} = 4m + 5n$$
+The molar solubility x is the concentration of each ion.
 
-$$\frac{3x^2y^3 - 9x^2y}{-3xy} = -xy^2 + 3x$$
+Ag+ = x
+Cl- = x
 
-## Example Problem 5.1
+The Ksp expression is:
+Ksp = [Ag+][Cl-]
 
-Simplify the expression: $\frac{56ab}{7a}$
+Ksp = x^2
 
-***Solution***: We factor out 7a from the numerator as: $\frac{7a \cdot 8b}{7a} = 8b$.
+Ksp = (1.3 x 10^-5)^2 = 1.69 x 10^-10
 
-# Conclusion
+Therefore, the solubility product constant (Ksp) for silver chloride (AgCl) is 1.69 x 10^-10.
 
-Algebraic Expressions are mathematical phrases that involve variables, constants, and operations. Like terms have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. We can add, subtract, multiply, or divide Algebraic Expressions by performing operations based on the properties of the terms. To solve Algebraic Expressions, we need to follow a step-by-step method that ensures the information is accurate and consistent. As you continue learning Algebraic Expressions, keep practicing, and applying your math skills to solve more complex problems. Thank you for following this Karu lesson on Algebraic Expressions from Icy Tutors.
+## Conclusion
+Solubility is a crucial concept in chemistry, and it is essential to understand for any chemistry student. In this lecture, we covered the definition of solubility, the factors that affect solubility, and how to calculate solubility. We looked at temperature and pressure as factors affecting solubility and saw how to calculate the solubility of substances at a given temperature and pressure. Finally, we learned about solubility product constant (Ksp) and how it is used to describe the solubility of a solute in a specific solvent. With these concepts in mind, you are well-prepared to tackle any solubility problem thrown your way. Good luck!
 
-Total time taken: 1.554 minute(s)
+Total time taken: 2.496 minute(s)
 
