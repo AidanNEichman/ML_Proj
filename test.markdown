@@ -1,119 +1,119 @@
 
 Calling yarn x generate-presentation...
 
-# Introduction
-Hello, and welcome to today's AP Chemistry lecture on Solubility. Solubility is a fundamental concept in chemistry, and it is essential to understand if you want to excel in your AP Chemistry course. In this lecture, we will cover everything you need to know about solubility, from the definition of solubility and its units to the factors that affect solubility and how to calculate solubility. By the end of this lecture, you will have a solid understanding of solubility and be ready to tackle any solubility problem thrown your way.
+# Calculating Equilibrium Concentrations
 
-## Definition of Solubility
-Solubility is the measure of a substance's ability to dissolve in a solvent. It is usually expressed as the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature and pressure. The units of solubility depend on the units of the solute and solvent, but they are usually expressed as grams of solute per liter of solvent ($$\frac{\text{g}}{\text{L}}$$).
+## Introduction
 
-## Factors Affecting Solubility
-Several factors affect solubility, including temperature, pressure, and the nature of the solute and solvent. 
+Hello everyone, welcome to the Karu lesson on Calculating Equilibrium Concentrations from Icy Tutors. In this lesson, we will be discussing the concept of calculating equilibrium concentrations. Equilibrium is a state of balance where the rates of the forward and reverse reactions are equal. By understanding how to calculate equilibrium concentrations, we can determine how much of each reactant and product is present in a chemical reaction at equilibrium.
 
-### Temperature
-In general, the solubility of most solids in liquids increases with temperature, while the solubility of most gases in liquids decreases with temperature. This is because the increase in temperature increases the kinetic energy of the solute and solvent molecules, making it easier for the solute to dissolve in the solvent. 
+## Units
 
-Example Problem: Calculate the solubility of potassium chloride (KCl) in water at 50°C, given that its solubility at 25°C is 34.7 g/100 mL and its enthalpy of solution is 17.8 kJ/mol.
+### Equilibrium Constant, K 
 
-Solution:
-The first step is to write the chemical equation for the dissolution of KCl in water:
-KCl(s) → K+(aq) + Cl-(aq)
+The equilibrium constant, K, relates the concentrations of reactants and products at equilibrium. It is equal to the product of the concentrations of the products, raised to their stoichiometric coefficients, divided by the product of the concentrations of reactants raised to their stoichiometric coefficients.
 
-Next, we need to use the enthalpy of solution and the temperature difference to calculate the change in entropy. We can use the following equation:
-ΔH = ΔS x T
+$$K=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
 
-ΔH = 17.8 kJ/mol
-T1 = 25°C + 273 = 298 K
-T2 = 50°C + 273 = 323 K
+where a, b, c, and d are the stoichiometric coefficients of the reactants and products A, B, C, and D, respectively.
 
-ΔS = ΔH / T = (-17800 J/mol) / (298 K - 273 K) = -712 J/K mol
+### Equilibrium Concentrations
 
-Now, we can use the following equation to calculate the solubility at 50°C:
-log(S2/S1) = -(ΔHsol/R) x (1/T2 - 1/T1)
+We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The equilibrium concentrations depend on the initial concentrations of the reactants and the equilibrium constant. If K > 1, the equilibrium lies to the right, meaning that the product concentration is greater than the reactant concentration. If K < 1, the equilibrium lies to the left, meaning that the reactant concentration is greater than the product concentration. If K = 1, the reaction is at equilibrium.
 
-S1 = 34.7 g/100 mL = 347 g/L
-R = 8.314 J/mol K
-T1 = 298 K
-T2 = 323 K
+Suppose we have the following chemical reaction:
+$$A + B \rightarrow C + D$$
 
-log(S2/347) = -(17800 J/mol / 8.314 J/mol K) x (1/323 K - 1/298 K)
-log(S2/347) = -4.966
-S2/347 = 10^(-4.966)
-S2 = 0.0031 g/mL = 31 g/L
+The equilibrium constant for the reaction is:
 
-Therefore, the solubility of KCl in water at 50°C is 31 g/L.
+$$K=\frac{[C][D]}{[A][B]}$$
 
-### Pressure
-In general, the solubility of gases in liquids increases with pressure. This is because the increase in pressure increases the partial pressure of the gas above the liquid, which makes it easier for the gas to dissolve in the liquid.
+Suppose the initial concentration of A is 0.1 M, the initial concentration of B is 0.2 M, and the concentration of C is initially zero. We want to find the equilibrium concentration of C when the equilibrium constant is K = 4.
 
-Example Problem: Calculate the solubility of oxygen (O2) in water at a partial pressure of 1 bar and 20°C, given that the solubility of oxygen in water at 1 bar and 25°C is 0.046 g/L.
+To solve for the equilibrium concentration of C, we can use the equilibrium constant expression and an ICE table. An ICE table is a table that lists the initial concentration of each species, the change in concentration of each species, and the equilibrium concentration of each species.
 
-Solution:
-We can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
-C = kH x P
+|           | A   | B   | C   | D   |
+|-----------|-----|-----|-----|-----|
+| Initial   | 0.1 | 0.2 | 0   | 0   |
+| Change    | -x  | -x  | +x  | +x  |
+| Equilibrium| 0.1-x| 0.2-x| x   | x   |
 
-C = solubility of oxygen in water
-kH = Henry's Law constant
-P = partial pressure of oxygen
+Plugging these values into the equilibrium constant expression, we get:
 
-We need to convert the temperature from Celsius to Kelvin:
-T1 = 20°C + 273 = 293 K
+$$4 = \frac{x^2}{(0.1-x)(0.2-x)}$$
 
-We can use the following equation to calculate the Henry's Law constant:
-kH = C/P
+Solving for x, we get:
 
-kH = (0.046 g/L) / (1 bar) = 0.046 L/g
+$x = 0.144 M$
 
-Now, we can use Henry's Law to calculate the solubility of oxygen in water at 1 bar and 20°C:
-C = kH x P = (0.046 L/g) x (1 bar) = 0.046 g/L
+Therefore, the equilibrium concentration of C is:
 
-Therefore, the solubility of oxygen in water at a partial pressure of 1 bar and 20°C is 0.046 g/L.
+$$[C]_{eq} = x = 0.144 M$$
 
-## Calculating Solubility
-There are several ways to calculate solubility, including using solubility curves and using the solubility product constant (Ksp).
+### Reaction Quotient, Q
 
-### Solubility Curves
-Solubility curves are plots of solubility versus temperature. They allow you to determine the solubility of a solute at any temperature within the range of the curve. To use a solubility curve, you simply locate the temperature on the x-axis and follow the curve up or down to the solubility value on the y-axis.
+The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. If Q is less than K, the reaction will proceed forward to reach equilibrium. If Q is greater than K, the reaction will proceed in reverse to reach equilibrium. If Q equals K, the reaction is at equilibrium.
 
-Example Problem: Use the following solubility curve for potassium nitrate (KNO3) in water to determine the solubility of KNO3 in water at 40°C.
-(Note: The solubility curve is not provided in this script)
+$$Q=\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
 
-Solution:
-Locate the temperature of 40°C on the x-axis and follow the curve up to the solubility value on the y-axis. The solubility of KNO3 in water at 40°C is approximately 90 g/100 mL.
+### Le Châtelier's Principle
 
-### Solubility Product Constant (Ksp)
-The solubility product constant (Ksp) is the equilibrium constant for the dissolution of a solute in a solvent. It is defined as the product of the concentrations of the ions in the solution, each raised to the power of its stoichiometric coefficient.
+Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. 
 
-Example Problem: Calculate the solubility product constant (Ksp) for silver chloride (AgCl), given that its solubility in water is 1.3 x 10^-5 g/L.
+Suppose we have the following chemical reaction:
+$$A + B \rightleftharpoons C + D$$
 
-Solution:
-The chemical equation for the dissolution of AgCl in water is:
-AgCl(s) ↔ Ag+(aq) + Cl-(aq)
+#### Changes in Concentration
 
-The solubility of AgCl in water is 1.3 x 10^-5 g/L. We can use this value to calculate the concentrations of the Ag+ and Cl- ions.
+If we add more of a reactant, the equilibrium will shift to the right to consume the added reactant. If we remove a product, the equilibrium will shift to the right to produce more of the removed product.
 
-AgCl(s) ↔ Ag+(aq) + Cl-(aq)
-1 mole 1 mole 1 mole
-===========
-x --------- -----------
-1 L 1 L
+If we add more of a product, the equilibrium will shift to the left to consume the added product. If we remove a reactant, the equilibrium will shift to the left to produce more of the removed reactant.
 
-The molar solubility x is the concentration of each ion.
+#### Changes in Pressure and Volume
 
-Ag+ = x
-Cl- = x
+If the pressure on a system is increased, the system will shift in the direction that will reduce the pressure. If the pressure on a system is decreased, the system will shift in the direction that will increase the pressure.
 
-The Ksp expression is:
-Ksp = [Ag+][Cl-]
+#### Changes in Temperature
 
-Ksp = x^2
+If the temperature of a system is increased, the system will shift in the direction that will consume heat. If the temperature of a system is decreased, the system will shift in the direction that will produce heat.
 
-Ksp = (1.3 x 10^-5)^2 = 1.69 x 10^-10
+## Example Problem
 
-Therefore, the solubility product constant (Ksp) for silver chloride (AgCl) is 1.69 x 10^-10.
+Suppose we have the following chemical reaction:
+$$N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$$
+
+At a certain temperature, the equilibrium constant for the reaction is K = 0.5. If we start with 0.2 M of N2 and 0.3 M of H2, what are the equilibrium concentrations of each species?
+
+#### Solution
+
+We can use an ICE table to determine the equilibrium concentrations of each species.
+
+|           | N2  | H2  | NH3 |
+|-----------|-----|-----|-----|
+| Initial   | 0.2 | 0.3 | 0   |
+| Change    | -3x | -x  | +2x |
+| Equilibrium| 0.2 - 3x | 0.3 - x | 2x |
+
+Plugging these values into the equilibrium constant expression, we get:
+
+$$0.5 = \frac{(2x)^2}{(0.2-3x)(0.3-x)^3}$$
+
+Solving for x, we get:
+
+$x = 0.0463 M$
+
+Therefore, the equilibrium concentrations of N2, H2, and NH3 are:
+
+$$[N_2]_{eq} = 0.2 - 3x = 0.066 M$$
+
+$$[H_2]_{eq} = 0.3 - x = 0.254 M$$
+
+$$[NH_3]_{eq} = 2x = 0.093 M$$
+
 
 ## Conclusion
-Solubility is a crucial concept in chemistry, and it is essential to understand for any chemistry student. In this lecture, we covered the definition of solubility, the factors that affect solubility, and how to calculate solubility. We looked at temperature and pressure as factors affecting solubility and saw how to calculate the solubility of substances at a given temperature and pressure. Finally, we learned about solubility product constant (Ksp) and how it is used to describe the solubility of a solute in a specific solvent. With these concepts in mind, you are well-prepared to tackle any solubility problem thrown your way. Good luck!
 
-Total time taken: 2.496 minute(s)
+In conclusion, calculating equilibrium concentrations is an important concept in understanding chemical equilibria. We can use the equilibrium constant to calculate the equilibrium concentrations of reactants and products. The reaction quotient, Q, is similar to the equilibrium constant but is calculated using the concentrations of the reactants and products at any point during the reaction. Le Châtelier's Principle predicts how changes in concentration, pressure, or temperature will affect the equilibrium position of a chemical reaction. Remember to use an ICE table when solving equilibrium concentration problems and to always check to see if the reaction is at equilibrium.
+
+Total time taken: 1.982 minute(s)
 
