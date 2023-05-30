@@ -1,50 +1,104 @@
 
 Calling yarn x generate-presentation...
 
-# Introduction
-Hello everyone, and welcome to the AP Biology lesson on Replication! Today, we'll delve into the process of DNA replication, including its history, key players, and steps. This process is one of the most important aspects of biology, as it ensures the accurate transmission of genetic information from parent to offspring. So, let's dive in!
+# Trigonometric Ratios: An Overview
 
-# History of Replication
-The process of DNA replication was first discovered in the 1950s by researchers James Watson and Francis Crick, who famously described the double-helix structure of DNA. However, the actual process of genome replication had already been hypothesized by other scientists such as Erwin Chargaff and Matthew Meselson. 
+Hello and welcome to this tutorial on Trigonometric Ratios. I am excited to guide you through this concept and help you understand it better. Trigonometry is a branch of mathematics that deals with the relationships between the sides and angles of triangles. The ratios of the sides of a right-angled triangle are called Trigonometric Ratios.
 
-# Key Players
-There are several key enzymes and proteins that are involved in the process of replication. These include:
-- DNA Helicase: unwinds the double helix, creating two strands.
-- Single-strand binding proteins: bind to each strand to prevent re-annealing.
-- Primase: synthesizes RNA primers on each strand.
-- DNA Polymerase III: synthesizes the new complementary strands on each original strand.
-- DNA Polymerase I: replaces RNA primers with DNA nucleotides.
-- DNA Ligase: seals the gaps between the Okazaki fragments on the lagging strand.
+In this tutorial, we will be covering all the major aspects of Trigonometric Ratios, including:
 
-# Steps of Replication
-Replication occurs in three main stages: initiation, elongation, and termination. Let's explore each one in detail. 
+* Sine Ratio
+* Cosine Ratio
+* Tangent Ratio
+* Cosecant Ratio
+* Secant Ratio
+* Cotangent Ratio
 
-## Initiation
-The process of replication begins at certain points along the DNA molecule called origin of replication. This is where the helicase enzyme binds and starts unwinding the DNA. Once the double helix is unwound, the single-strand binding proteins bind to each of the strands to prevent them from re-annealing.
+Let's dive right into it!
 
-## Elongation
-The next stage is elongation, where the newly synthesized strands are formed. Primase synthesizes a short RNA primer on each of the strands, allowing DNA polymerase III to add DNA nucleotides. On the leading strand, replication occurs in a continuous fashion towards the replication fork. On the lagging strand, replication occurs discontinuously in short fragments called Okazaki fragments. DNA polymerase I replaces the RNA primers with DNA nucleotides, while DNA ligase seals the gaps between the Okazaki fragments.
+## Sine Ratio
 
-## Termination
-Once the entire DNA molecule has been replicated, the two strands must be separated. This occurs when the two replication forks meet each other and the two newly synthesized strands interact with each other. This process is called termination.
+Sine Ratio (sin) is the ratio of the length of the side opposite an acute angle in a right-angled triangle to the hypotenuse of the triangle.
 
-# Example Problems
-Let's take a look at some example problems to solidify our understanding of replication.
+$$ \text{Sin} \theta = \frac{\text{Opposite}}{\text{Hypotenuse}} $$
 
-## Problem 1
-What is the function of DNA Polymerase III in replication? 
+For example, if we have a right-angled triangle with an acute angle of 30° and the opposite side is 3 cm and the hypotenuse is 10 cm, then:
 
-### Solution
-DNA Polymerase III synthesizes the new complementary strands of DNA on each original strand. 
+$$ \text{Sin} 30° = \frac{3}{10} = 0.3 $$
 
-## Problem 2
-What is the function of DNA ligase in replication?
+## Cosine Ratio
 
-### Solution
-DNA ligase seals the gaps between the Okazaki fragments on the lagging strand.
+Cosine Ratio (cos) is the ratio of the length of the adjacent side in a right-angled triangle to the hypotenuse of the triangle.
 
-# Conclusion
-In conclusion, replication is the process of copying DNA to ensure the accurate transmission of genetic information from parent to offspring. This process involves several key enzymes and proteins and occurs in three main stages: initiation, elongation, and termination. Understanding the intricacies of replication is crucial to understanding genetics and the basis of life itself. Thank you for learning with us today, and we hope you continue to explore the exciting world of biology!
+$$ \text{Cos} \theta = \frac{\text{Adjacent}}{\text{Hypotenuse}} $$
 
-Total time taken: 56.315 second(s)
+For example, if we have a right-angled triangle with an acute angle of 45° and the adjacent side is 4 cm and the hypotenuse is 5 cm, then:
+
+$$ \text{Cos} 45° = \frac{4}{5} = 0.8 $$
+
+## Tangent Ratio
+
+Tangent Ratio (tan) is the ratio of the length of the side opposite an acute angle in a right-angled triangle to the length of the adjacent side of the triangle.
+
+$$ \text{Tan} \theta = \frac{\text{Opposite}}{\text{Adjacent}} $$
+
+For example, if we have a right-angled triangle with an acute angle of 60° and the opposite side is 5 cm and the adjacent side is 3 cm, then:
+
+$$ \text{Tan} 60° = \frac{5}{3} = 1.67 $$
+
+## Cosecant Ratio
+
+Cosecant Ratio (csc) is the ratio of the length of the hypotenuse of a right-angled triangle to the length of the side opposite to an acute angle.
+
+$$ \text{Csc} \theta = \frac{1}{\text{Sin} \theta} = \frac{\text{Hypotenuse}}{\text{Opposite}} $$
+
+For example, if we have a right-angled triangle with an acute angle of 30° and the opposite side is 4 cm and the hypotenuse is 8 cm, then:
+
+$$ \text{Csc} 30° = \frac{1}{\text{Sin} 30°} = \frac{8}{4} = 2 $$
+
+## Secant Ratio
+
+Secant Ratio (sec) is the ratio of the length of the hypotenuse of a right-angled triangle to the length of the adjacent side.
+
+$$ \text{Sec} \theta = \frac{1}{\text{Cos} \theta} = \frac{\text{Hypotenuse}}{\text{Adjacent}} $$
+
+For example, if we have a right-angled triangle with an acute angle of 60° and the adjacent side is 2 cm and the hypotenuse is 4 cm, then:
+
+$$ \text{Sec} 60° = \frac{1}{\text{Cos} 60°} = \frac{4}{2} = 2 $$
+
+## Cotangent Ratio
+
+Cotangent Ratio (cot) is the ratio of the length of the adjacent side in a right-angled triangle to the length of the side opposite to an acute angle.
+
+$$ \text{Cot} \theta = \frac{1}{\text{Tan} \theta} = \frac{\text{Adjacent}}{\text{Opposite}} $$
+
+For example, if we have a right-angled triangle with an acute angle of 45° and the opposite side is 4 cm and the adjacent side is 4 cm, then:
+
+$$ \text{Cot} 45° = \frac{1}{\text{Tan} 45°} = \frac{4}{4} = 1 $$
+
+## Example Problems
+
+Let's go through a couple of example problems to solidify our understanding of Trigonometric Ratios.
+
+**Problem 1:** Find the value of sin θ in a right-angled triangle with θ = 45°, opposite side = 3, and hypotenuse = 5.
+
+**Solution:**
+
+$$ \text{Sin} 45° = \frac{\text{Opposite}}{\text{Hypotenuse}} = \frac{3}{5} = 0.6 $$
+
+Therefore, the value of sin θ is 0.6.
+
+**Problem 2:** Find the value of cos θ in a right-angled triangle with θ = 30°, adjacent side = 4, and hypotenuse = 8.
+
+**Solution:**
+
+$$ \text{Cos} 30° = \frac{\text{Adjacent}}{\text{Hypotenuse}} = \frac{4}{8} = 0.5 $$
+
+Therefore, the value of cos θ is 0.5.
+
+## Conclusion
+
+Trigonometric Ratios are an essential concept in mathematics, and understanding them is crucial for many fields like engineering, physics, and computer science. In this tutorial, we covered Sine Ratio, Cosine Ratio, Tangent Ratio, Cosecant Ratio, Secant Ratio, and Cotangent Ratio. I hope that you found this tutorial informative and helpful. Remember to practice as much as possible to master this concept. Good luck!
+
+Total time taken: 1.632 minute(s)
 
