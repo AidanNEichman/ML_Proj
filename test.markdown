@@ -3,70 +3,63 @@ Calling yarn x generate-presentation...
 
 # Introduction
 
-Hello everyone, and welcome to the Karu lesson on the structure of metals and alloys from Icy Tutors. In this lesson, we will be discussing the fundamental concept behind metals and alloys, understanding their chemical compositions and the different properties that make them unique. 
+Welcome to this AP Chemistry lesson on Heat Transfer and Thermal Equilibrium brought to you by Icy Tutors. In this lecture, we will be exploring the fundamental principles of heat transfer, the types of heat transfer, and how objects in thermal equilibrium behave. 
 
-Metals are known for their unique properties, such as high strength, good conductivity, malleability, and ductility. These properties make metals ideal for many applications, ranging from construction to electronics. The atomic structure of metals and how the structure is affected by alloying elements is crucial to understanding these properties.
+Heat transfer is a key concept in chemistry, physics, and engineering, and understanding these principles is essential for a wide range of applications from designing efficient cooling systems to understanding the behavior of chemical reactions. So let's get started!
 
 # Main Contents/Units
 
-## Metallic Bonding
+## Part 1: What is Heat Transfer?
 
-Metallic bonding is the force that holds metals together. In ionic bonding, atoms transfer electrons to form ions. In covalent bonding, atoms share electrons. However, in metallic bonding, the atoms in a metal share a collective pool of electrons, which hold the atoms together in a sea of electrons.
+Heat is a form of energy that is transferred from one object to another due to a difference in temperature. The direction of heat transfer is always from hotter objects to cooler objects. The rate of heat transfer, also known as the heat flux, is given by:
 
-The metallic bond is responsible for many properties of metals, including their thermal and electrical conductivity, malleability, and ductility. $$Metal + sea ~of~ electrons \rightarrow Metallic ~bond$$ 
+$$\dot{q} = kA\frac{\Delta T}{\Delta x}$$
 
-### Example problem: 
+where $\dot{q}$ is the heat flux, $k$ is the thermal conductivity of the material, $A$ is the surface area of the object, $\Delta T$ is the temperature difference between the two objects, and $\Delta x$ is the distance between the two objects.
 
-If an aluminum atom has 3 valence electrons and its metallic crystal structure has a coordination number of 12, how many metal atoms are there per unit cell? 
+The three main types of heat transfer are:
 
-From our previous knowledge, we know that -- $$Coordination ~number = number ~of ~atoms ~touching ~a ~particular ~atom$$ Therefore, $$Number ~of ~atoms ~per ~unit ~cell = \frac{1}{12}\ x\ 12 = 1 $$ Thus, there is 1 aluminum atom per unit cell. 
+### Conduction
 
-## Crystalline Structure of Metals
+Conduction is the movement of heat through a material due to a temperature gradient. This occurs when two objects at different temperatures are in contact. The rate of heat flow through a material by conduction is given by:
 
-Metals tend to form crystalline solids, which means their atoms are arranged in a highly ordered pattern. There are different types of crystalline structures, and each metal has its own unique structure, which affects their physical properties such as density, strength, and ductility. The unit cell is the smallest portion of the crystal lattice that displays the complete 3-dimensional pattern of the crystal structure. 
+$$\dot{q} = kA\frac{\Delta T}{\Delta x}$$
 
-### Cubic Unit Cells 
+where $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area of the material, $\Delta T$ is the temperature difference across the material, and $\Delta x$ is the thickness of the material.
 
-There are three types of metallic crystal structures based on the shape of the unit cell; these are cubic, tetragonal, orthorhombic. The most common type of metallic crystal structures are cubic. The cubic unit cell is a cube with atoms at each corner. This results in a coordination number of 6. $$Coordination~number = \frac{1}{4}\ x\ 8~corners~+~\frac{1}{2}\ x\ 6~faces = 6$$ 
+Example problem: Calculate the rate at which heat flows through a 5 cm thick wall made of a material with a thermal conductivity of 0.5 W/mK when the temperature difference across the wall is 25°C. (Answer: $\dot{q}$ = 500 W/m²)
 
-### Tetragonal Unit Cells
+### Convection
 
-Tetragonal unit cells are similar to cubic unit cells, but the lengths of two sides are different. The unit cell looks like a rectangular prism. $$Coordination~number~ = \frac{1}{4}\ x\ 8~corners~+~\frac{1}{2}\ x\ 6~faces = 6$$ 
+Convection is the transfer of heat from one place to another by the movement of fluids (liquids or gases). This occurs due to the movement of hot fluid rising and cooler fluid sinking. The rate of heat transfer by convection is given by:
 
-### Orthorhombic Unit Cells
+$$\dot{q} = hcA\Delta T$$
 
-Orthorhombic unit cells have all different lengths of 3 sides and look like a rectangular prism. Orthorhombic cells have coordination numbers of 8.$$ Coordination~number= \frac{1}{4}\ x\ 8~corners~+~\frac{1}{2}\ x\ 6~faces~+~ \frac{1}{4}\ x\ 12~edges = 8 $$ 
+where $h$ is the convective heat transfer coefficient, $c$ is the specific heat of the fluid, $A$ is the surface area of the object, and $\Delta T$ is the temperature difference between the fluid and the object.
 
-### Example problem:
+Example problem: Calculate the heat transfer rate from a flat plate to water flowing at a velocity of 2 m/s over the plate. The surface area of the plate is 0.5 m², and the temperature of the plate is 80°C while the temperature of the water is 25°C. The convective heat transfer coefficient is 2000 W/m²K. (Answer: $\dot{q}$ = 6.5 kW)
 
-If Sodium has a BCC crystal structure, what is its coordination number? 
+### Radiation
 
-To solve this problem, we need to know that the coordination number for each ion in BCC is 8. So, the coordination number for Sodium is 8.
+Radiation is the transfer of heat energy through electromagnetic waves. This can occur in a vacuum and does not require a medium. The rate of heat transfer by radiation is given by:
 
-$$Coordination~number = 8 $$
+$$\dot{q} = \sigma A(T^4 - T_0^4)$$
 
+where $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area of the object, $T$ is the temperature of the object, and $T_0$ is the temperature of the surroundings.
 
-## Alloys
+Example problem: A 2 m² surface has an emissivity of 0.8 and is maintained at a temperature of 850 K. Determine the rate of heat loss to the surroundings at a temperature of 300 K. (Answer: $\dot{q}$ = 3.57 kW)
 
-Alloys are metallic compounds that are made by mixing two or more elements. The resulting alloy has unique physical and mechanical properties that are different from the individual elements that make up the alloy. Alloys are used to create materials with specific properties that cannot be achieved by using a single metal. 
+## Part 2: Thermal Equilibrium
 
-### Example problem:
+Two objects are said to be in thermal equilibrium when they are at the same temperature and no heat flows between them. The zeroth law of thermodynamics states that if two objects are each in thermal equilibrium with a third object, then they are in thermal equilibrium with each other.
 
-What is the weight percent of gold in an alloy that contains 20g of silver and 10g of gold? 
+The temperature of an object is a measure of the average kinetic energy of its molecules. When two objects in contact are at different temperatures, they will exchange heat until they reach thermal equilibrium. 
 
-To solve this problem, we need to first calculate the total weight of the alloy. The total weight of the alloy is: 
-
-$$20~g~+~10~g = 30~g$$
-
-Then, we calculate the weight percent of gold:
-
-$$\frac{10~g}{30~g}~x~100\%~=~33.33\%$$ 
-
-Therefore, the weight percent of gold in the alloy is 33.33%.
+Example problem: An aluminum block with a mass of 2 kg is initially at a temperature of 25°C. It is placed in contact with a copper block with a mass of 1 kg at a temperature of 100°C. What is the final temperature of the two blocks when they reach thermal equilibrium? (Answer: 66.7°C)
 
 # Conclusion
 
-In conclusion, the structure of metals and alloys is an essential concept to understand when studying materials science. Knowing about the metallic bonding, metallic crystal structures, and alloys help to understand the properties of metals and how alloying elements can tune their properties. Our discussion today covered cubic, tetragonal, and orthorhombic unit cells and how coordination numbers are calculated. We also talked about alloys and how their unique properties can be used in various different applications. We hope this lesson was informative and encourages you to explore the concept more. Thank you for joining us today on Karu lessons.
+In conclusion, Heat transfer is an important concept in chemistry, physics, and engineering, and an understanding of the types of heat transfer and thermal equilibrium is essential for a wide range of applications. We covered the principles of heat transfer, the types of heat transfer, and how objects in thermal equilibrium behave. With these concepts in your toolkit, you will be able to solve a wide range of problems related to heat transfer and thermal equilibrium.
 
-Total time taken: 1.55 minute(s)
+Total time taken: 1.464 minute(s)
 
