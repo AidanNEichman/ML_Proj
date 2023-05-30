@@ -1,61 +1,70 @@
 
 Calling yarn x generate-presentation...
 
-# Enthalpy of Formation: Introduction
+# Introduction
 
-Hello and welcome to the Karu lesson on Enthalpy of Formation! In this lesson, we will dive into the concept of enthalpy of formation, which is an important concept in thermodynamics. Before we begin, let's define enthalpy of formation.
+Hello everyone, welcome to the Karu lesson on Entropy. Entropy is a concept that is extremely important in the field of thermodynamics and has many practical applications in our daily lives. To put it simply, entropy is the measure of the randomness or disorder of a system. In this lecture, we will be breaking down the concept of entropy into smaller parts to understand it better.
 
-Enthalpy of formation ($\Delta H^{\circ}_f$) is the enthalpy change that occurs when one mole of a substance is formed from its constituent elements in their standard states.
+# Section 1: Defining Entropy
 
-In simple terms, it is the amount of heat released or absorbed when a compound is formed from its constituent elements. Now, let's break down the concept of enthalpy of formation into its main components.
+Entropy is defined as the measure of the randomness or disorder of a system. In other words, it is the amount of energy that is unavailable to do work. The symbol for entropy is S, and it is measured in units of joules per kelvin (J/K). The entropy of a system can increase or decrease, depending on the processes occurring within the system.
 
-## The Standard State
+$$\Delta S = S_{final}-S_{initial}$$
 
-In order to calculate $\Delta H^{\circ}_f$ for a compound, we need to define what we mean by "standard states". The standard state of an element is its most stable state at a specified temperature and pressure. For example, the standard state of oxygen gas is diatomic O$_2$, and the standard state of mercury is liquid at room temperature.
+Where $\Delta S$ is the change in entropy, and $S_{final}$ and $S_{initial}$ are the final and initial entropies, respectively.
 
-## Hess's Law
+# Section 2: The Second Law of Thermodynamics
 
-Now that we know what standard states are, let's introduce Hess's Law. Hess's Law states that the enthalpy change for a reaction is independent of the pathway between the initial and final states. In other words, the change in enthalpy for a reaction is the same regardless of whether the reaction occurs in one step or multiple steps. This allows us to use enthalpies of formation to determine the overall enthalpy change for a reaction.
+The second law of thermodynamics states that the entropy of an isolated system always tends to increase over time. This law can be expressed in terms of the equation:
 
-## Enthalpy of Formation Calculation
+$$\Delta S_{universe} > 0$$
 
-To calculate $\Delta H^{\circ}_f$ for a compound, we need to know the enthalpies of formation for its constituent elements. These values are typically given in tables of standard thermodynamic values, such as the NIST Chemistry WebBook. Once we have these values, we can use Hess's Law to calculate the enthalpy of formation for the compound.
+Where $\Delta S_{universe}$ is the change in entropy of the entire system, including the surroundings. This means that in any process, the total entropy of the universe must always increase. 
 
-### Enthalpy of Formation Equation
+# Section 3: Entropy of a Gas
 
-The general equation for calculating $\Delta H^{\circ}_f$ is:
+The entropy of a gas can be calculated using the following equation:
 
-$$\Delta H^{\circ}_f = \sum_{products}n\Delta H^{\circ}_f(\mathrm{products}) - \sum_{reactants}n\Delta H^{\circ}_f(\mathrm{reactants})$$
+$$S=nR\ln(V_f/V_i)$$
 
-where $\Delta H^{\circ}_f(\mathrm{products})$ and $\Delta H^{\circ}_f(\mathrm{reactants})$ are the enthalpies of formation of the products and reactants, respectively, and $n$ is the coefficient of each species in the balanced chemical equation.
+Where S is the entropy change, n is the number of moles of gas, R is the gas constant, and $V_f$ and $V_i$ represent the final and initial volumes, respectively. 
 
-Let's look at an example to see how this equation is used in practice.
+Example problem:
+Calculate the entropy change when 2 moles of an ideal gas with an initial volume of 5 L expands to a final volume of 20 L at a constant temperature of 298 K.
 
-## Example Problem
+Solution:
+Using the equation above, we get:
 
-Calculate the enthalpy of formation of calcium chloride (CaCl$_2$) using the following enthalpies of formation:
+$$S= 2\cdot8.314\text{ J/K}\cdot\ln(20\text{ L}/5\text{ L})$$
+$$S= 2\cdot8.314\text{ J/K}\cdot\ln(4)$$
+$$S= 2\cdot8.314\text{ J/K}\cdot 1.3862$$
+$$S= 23.08\text{ J/K}$$
 
-$$\Delta H^{\circ}_f(\mathrm{Ca}) = -546.1 \ \mathrm{kJ/mol}$$
+Therefore, the entropy change was 23.08 J/K.
 
-$$\Delta H^{\circ}_f(\mathrm{Cl_2}) = 0 \ \mathrm{kJ/mol}$$
+# Section 4: Entropy of a Solid
 
-$$\Delta H^{\circ}_f(\mathrm{CaCl_2}) = -795.8 \ \mathrm{kJ/mol}$$
+The entropy change of a solid can be calculated using the equation:
 
-### Solution
+$$\Delta S = C_p\ln(T_f/T_i) - R\ln(P_f/P_i)$$
 
-The balanced chemical equation for the formation of CaCl$_2$ is:
+Where $\Delta S$ is the change in entropy, $C_p$ is the specific heat capacity at constant pressure, T is the temperature, and P is the pressure. 
 
-$$\mathrm{Ca(s)} + 2\mathrm{Cl_2(g)} \rightarrow \mathrm{CaCl_2(s)}$$
+Example problem:
+Calculate the entropy change when a solid with a specific heat capacity of 20 J/(mol•K) is heated from 298 K to 328 K at a constant pressure of 1 atm.
 
-Using the $\Delta H^{\circ}_f$ values given above and the equation for calculating $\Delta H^{\circ}_f$, we can calculate the enthalpy of formation for CaCl$_2$:
+Solution:
+Using the equation above, we get:
 
-$$\Delta H^{\circ}_f(\mathrm{CaCl_2}) = (1)(-795.8 \ \mathrm{kJ/mol}) - (1)(-546.1 \ \mathrm{kJ/mol}) - (2)(0 \ \mathrm{kJ/mol}) = -249.7 \ \mathrm{kJ/mol}$$
+$$\Delta S = 20\text{ J/(mol}\cdot\text{K)}\cdot\ln(328\text{ K}/298\text{ K}) - 8.314\text{ J/(mol}\cdot\text{K)}\cdot\ln(1\text{ atm}/1\text{ atm})$$
+$$\Delta S = 20\text{ J/(mol}\cdot\text{K)}\cdot\ln(1.1013) - 0$$
+$$\Delta S = 20\text{ J/(mol}\cdot\text{K)}\cdot 0.09691$$
+$$\Delta S = 1.9382\text{ J/(mol}\cdot\text{K)}$$
 
-Therefore, the enthalpy of formation of CaCl$_2$ is -249.7 kJ/mol.
+Therefore, the entropy change was 1.9382 J/(mol•K).
 
-## Conclusion
+# Conclusion
+In conclusion, entropy is an extremely important concept in the field of thermodynamics, and understanding it is crucial for understanding various physical and chemical processes. We have covered the basic definition of entropy, the second law of thermodynamics, and how to calculate the entropy of a gas and a solid. I encourage you to explore this concept further and to apply it to real-world situations. Thank you for watching this Karu lesson on entropy!
 
-In conclusion, enthalpy of formation is an important concept in thermodynamics that allows us to calculate the amount of heat released or absorbed when a compound is formed from its constituent elements. We use the enthalpies of formation for the elements and Hess's Law to calculate the enthalpy of formation for the compound. Remember, the key to success in understanding enthalpy of formation is to practice, practice, practice!
-
-Total time taken: 1.201 minute(s)
+Total time taken: 1.326 minute(s)
 
