@@ -1,47 +1,153 @@
 
 Calling yarn x generate-presentation...
 
-Hello everyone, welcome to the Karu lesson on Two-way Tables & Association between Variables from Icy Tutors.
+# Introduction
 
-Two-way tables are cross-classification tables that organize data in rows and columns. They allow us to visually represent the relationship between two categorical variables and their corresponding frequencies. In this lesson, we will be discussing the concept of two-way tables and how to use them to identify and analyze the association between variables.
+Hello everyone, welcome to the Grade 8 Math lesson on Characteristics of Graphs from Icy Tutors. Today, we will be discussing how to identify the different characteristics that a graph can have, such as its slope, intercept, axis, and curvature. Understanding these characteristics will help you to interpret graphs more effectively and solve problems more efficiently.
 
-Before we move forward, let's clarify what categorical variables are. Categorical variables are variables whose observations are divided into categories or groups. Examples of categorical variables include gender, hair color, favorite food, etc.
+## Slope
 
-Now, let's dive into two-way tables. A two-way table is a table which displays the frequencies of two categorical variables in specific categories. The rows of the table represent one variable, while the columns represent the other variable. Here's a simple example of a two-way table:
+The slope of a line is a measure of its steepness. It is defined as the ratio of the change in the y-coordinate to the change in the x-coordinate between two points on the line. The slope can be positive, negative, zero, or undefined.
 
-$$ \begin{matrix} & Sport & Movies & Music \\ Male & 20 & 15 & 5 \\ Female & 10 & 25 & 15 \end{matrix} $$ 
+### Positive Slope
 
-In this example, we have two categorical variables: gender (male or female) and preferred form of entertainment (sport, movies, or music). The table displays the frequencies of each gender's preferred form of entertainment. We can use this table to determine if there is an association between gender and preferred form of entertainment.
+A positive slope means that the line is increasing as you move from left to right. For example, the line y = 2x + 1 has a slope of 2, which means that for every increase of 1 in the x-coordinate, the y-coordinate increases by 2.
 
-Now let's talk about association. Association is the relationship or connection between two variables. In the context of a two-way table, it refers to whether or not there is a relationship between the two categorical variables being studied. An association can be positive, negative, or neutral. A positive association occurs when the frequency of one variable increases as the frequency of the other variable increases. A negative association occurs when the frequency of one variable decreases as the frequency of the other variable increases. A neutral association occurs when there is no relationship between the two variables.
+#### Example Problem
 
-To determine the association between two variables in a two-way table, we can calculate the conditional frequencies. Conditional frequencies are the frequency of one variable for each category of the other variable. We can calculate the conditional frequency by dividing the frequency of the cell by the total frequency of the row or column it belongs to. Here's how we can calculate the conditional frequency for the first cell in the table above:
+Find the slope of the line that passes through the points (1, 3) and (4, 9).
 
-$$\frac{20}{20+15+5}=0.57 $$
+Solution:
 
-This means that 57% of males prefer sports as their form of entertainment.
+The change in y-coordinate is 9 - 3 = 6, and the change in x-coordinate is 4 - 1 = 3. Therefore, the slope is:
 
-Now let's work through an example problem. Consider the following two-way table:
+$$
+slope = \frac{6}{3} = 2
+$$
 
-$$ \begin{matrix} & High School & College & University \\ Male & 50 & 20 & 10 \\ Female & 45 & 30 & 25 \end{matrix} $$ 
+### Negative Slope
 
-We want to determine if there is an association between gender and level of education.
+A negative slope means that the line is decreasing as you move from left to right. For example, the line y = -2x + 5 has a slope of -2, which means that for every increase of 1 in the x-coordinate, the y-coordinate decreases by 2.
 
-First, we can begin by calculating the row percentages. Row percentages are the percentages of each gender's frequency for each level of education. Here are the row percentages:
+#### Example Problem
 
-$$ \begin{matrix} & High School & College & University \\ Male & 62.5\% & 25\% & 12.5\% \\ Female & 50\% & 33.3\% & 16.7\% \end{matrix} $$ 
+Find the slope of the line that passes through the points (1, 5) and (5, 1).
 
-From this table, we can see that a higher proportion of males are in high school compared to college or university, while a higher proportion of females are in high school or college compared to university. However, we need to calculate more to determine the association between gender and level of education. 
+Solution:
 
-Next, we can calculate the column percentages. Column percentages are the percentages of each level of education's frequency for each gender. Here are the column percentages:
+The change in y-coordinate is 1 - 5 = -4, and the change in x-coordinate is 5 - 1 = 4. Therefore, the slope is:
 
-$$ \begin{matrix} & High School & College & University \\ Male & 52.6\% & 40.0\% & 28.6\% \\ Female & 47.4\% & 60.0\% & 71.4\% \end{matrix} $$ 
+$$
+slope = \frac{-4}{4} = -1
+$$
 
-From the column percentages, we can see that a higher proportion of males are in high school compared to females, while a higher proportion of females are in college or university compared to males. 
+### Zero Slope
 
-By comparing the row and column percentages, we can conclude that there is an association between gender and level of education. Specifically, gender and level of education are negatively associated, as the proportion of males in high school is higher than that of females, while the proportion of females in college or university is higher than that of males.
+A zero slope means that the line is horizontal. For example, the line y = 4 has a slope of 0, which means that for every increase of 1 in the x-coordinate, the y-coordinate remains the same.
 
-In conclusion, two-way tables are an effective tool for visually representing the relationship between two categorical variables and their corresponding frequencies. By calculating conditional frequencies, we can identify and analyze associations between variables. Remember to always calculate both the row and column percentages in order to accurately determine the association between two variables in a two-way table.
+#### Example Problem
 
-Total time taken: 1.459 minute(s)
+Find the slope of the horizontal line that passes through the point (2, 7).
+
+Solution:
+
+Since the line is horizontal, the change in y-coordinate is 0 and the change in x-coordinate is 1. Therefore, the slope is:
+
+$$
+slope = \frac{0}{1} = 0
+$$
+
+### Undefined Slope
+
+An undefined slope means that the line is vertical. For example, the line x = 4 has an undefined slope, which means that for every increase of 1 in the y-coordinate, the x-coordinate remains the same.
+
+#### Example Problem
+
+Find the slope of the vertical line that passes through the point (5, -3).
+
+Solution:
+
+Since the line is vertical, the change in x-coordinate is 0 and the change in y-coordinate is 1. Therefore, the slope is undefined.
+
+## Intercept
+
+The intercept of a line is the point where it crosses one of the axes. There are two types of intercepts: the x-intercept and the y-intercept.
+
+### X-intercept
+
+The x-intercept is the point where the line crosses the x-axis. To find the x-intercept, you set the y-coordinate equal to 0 and solve for the x-coordinate.
+
+#### Example Problem
+
+Find the x-intercept of the line y = 2x - 4.
+
+Solution:
+
+When y = 0, we have:
+
+$$
+0 = 2x - 4
+$$
+
+Solving for x, we get:
+
+$$
+x = 2
+$$
+
+Therefore, the x-intercept is (2, 0).
+
+### Y-intercept
+
+The y-intercept is the point where the line crosses the y-axis. To find the y-intercept, you set the x-coordinate equal to 0 and solve for the y-coordinate.
+
+#### Example Problem
+
+Find the y-intercept of the line y = -3x + 7.
+
+Solution:
+
+When x = 0, we have:
+
+$$
+y = -3(0) + 7
+$$
+
+Solving for y, we get:
+
+$$
+y = 7
+$$
+
+Therefore, the y-intercept is (0, 7).
+
+## Axis
+
+The axis of a graph is a line that divides it into quadrants. There are two types of axes: the x-axis and the y-axis.
+
+### X-axis
+
+The x-axis is the horizontal axis on a graph. It is used to measure the values of the x-coordinate.
+
+### Y-axis
+
+The y-axis is the vertical axis on a graph. It is used to measure the values of the y-coordinate.
+
+## Curvature
+
+The curvature of a graph is a measure of how sharply it changes direction. A graph can be concave or convex.
+
+### Concave
+
+A concave graph curves inward, like the inside of a bowl. For example, the graph of the function y = -x^2 is concave downward.
+
+### Convex
+
+A convex graph curves outward, like the outside of a dome. For example, the graph of the function y = x^2 is convex upward.
+
+# Conclusion
+
+Congratulations, you have learned about the Characteristics of Graphs! Remember that the slope measures the steepness of a line, the intercept is the point where it crosses one of the axes, the axis divides a graph into quadrants, and the curvature is a measure of how sharply it changes direction. Keep practicing and exploring this concept and you will find it easier to interpret graphs and solve problems.
+
+Total time taken: 1.791 minute(s)
 
