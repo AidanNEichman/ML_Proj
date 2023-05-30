@@ -2,103 +2,86 @@
 Calling yarn x generate-presentation...
 
 # Introduction
-Hello everyone, and welcome to this Grade 6 Math tutorial on Number Sequences. In this lesson, we will explore the fascinating world of number patterns, where we will learn about how numbers can create an organized sequence. Whether you want to learn more about basic patterns or complex sequences, this tutorial is perfect for you!
 
-# Main Contents/Units
-## Understanding Number Sequences in Mathematics
-Before we dive deep into Number Sequences, it is important to understand what numbers are and how they work in mathematics. Numbers are symbols that represent values, and the order of these symbols is what determines the value of the number. For example, the number “10” is a symbol that represents the value of ten. 
+Hello everyone, welcome to the Karu lesson on **Algebraic Expressions** from Icy Tutors. Algebraic Expressions is a fundamental topic that appears in math curriculums across different grade levels, including Grade 6. In this lesson, we will explore Algebraic Expressions in detail and understand how to apply this concept to solve problems. 
 
-Numbers can be used for various purposes in Math. For instance, they can be used for counting, measurement, quantities, and more. Numbers can also form a sequence, which is an ordered set of numbers that follow a specific pattern. 
+# Units
 
-## Types of Number Sequences
-There are various types of number sequences, and they can be classified in different ways. One way is by the pattern they follow. The most common types include:
+1. What are Algebraic Expressions
+2. Like and Unlike Terms
+3. Adding and Subtracting Expressions
+4. Multiplying Expressions
+5. Dividing Expressions
 
-### Arithmetic Sequence
-An arithmetic sequence is a sequence of numbers in which each successive number is obtained by adding the same constant number (d) to the previous number (a). It can be represented by the formula:
+## Unit 1: What are Algebraic Expressions ##
 
-$$ a_n = a + (n - 1)d $$
+Algebraic Expressions are mathematical phrases that involve variables, constants, and operations like addition, subtraction, multiplication, and division. The variables in the expressions represent unknown values, while constants like numbers are known values. The operations indicate the operations required to perform calculations with the variables and constants. Examples of Algebraic Expressions include:
 
-Where a is the first term, n is the term number, and d is the common difference between the terms.
+$$2x + 3~~~~~~~~~~~~~~~~6a + 4b~~~~~~~~~~~~~~~~x^2 - 5x + 6$$
 
-For example, the sequence 1, 3, 5, 7, 9, 11, … is an arithmetic sequence with a common difference of 2.
+## Example Problem 1.1 
+Write an Algebraic Expression for the statement: "five times a number plus two."
 
-### Geometric Sequence
-A geometric sequence is a sequence of numbers in which each successive number is obtained by multiplying the previous number (a) by the same constant number (r). It can be represented by the formula:
+***Solution***: We can use the variable 'n' to represent the unknown number. $5n + 2$ is the Algebraic Expression that matches the given statement.
 
-$$ a_n = a * r^{n - 1} $$
+## Unit 2: Like and Unlike Terms ##
 
-Where a is the first term, n is the term number, and r is the common ratio between the terms.
+In Algebraic Expressions, terms are the parts of the expression that contain variables, constants, or a product of both. Like terms are the terms in an expression that have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. Example of like and unlike terms are:
 
-For example, the sequence 2, 4, 8, 16, 32, 64, … is a geometric sequence with a common ratio of 2.
+$$3x~~~~~~~~~~~~~~~~5x^2~~~~~~~~~~~~~~~~7y^3~~~~~~~~~~~~~~~~-2x~~~~~~~~~~~~~~~~9x^2~~~~~~~~~~~~~~~~-5xy^2$$
 
-### Fibonacci Sequence
-The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding numbers, starting from 0 and 1. It can be represented by the formula:
+## Example Problem 2.1
+Identify the like and unlike terms in the expression: $3a^2 + 5ab - 2a^2 + 7b$
 
-$$ F_n = F_{n-1} + F_{n-2} $$
+***Solution***: The like terms in the expression are $3a^2$ and $-2a^2$ because they both have the same power of 'a'. The unlike terms in the expression are $5ab$ and $7b$ because they have different variables.
 
-Where F is the Fibonacci number and n is the position of the number in the sequence.
+## Unit 3: Adding and Subtracting Expressions ##
 
-For example, the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, … is a Fibonacci sequence.
+We can add or subtract Algebraic Expressions by grouping like terms. To add or subtract the coefficients of like terms, while keeping the variable and its corresponding exponent the same. Examples of adding and subtracting Algebraic Expressions are:
 
-## How to Find the Next Term in a Sequence
-Mathematicians use different methods to calculate the next term in a sequence. Here are the most common methods:
+$$5x + 3y - 2x + 5y = 3x + 8y$$
 
-### Arithmetic Sequence
-To find the next term in an arithmetic sequence, you need to add the common difference (d) to the last term in the sequence.
+$$6a^2b + 4b - 2ab^2 + 3ab + 7a^2b^2 = 7a^2b^2 + 6a^2b + ab^2 + 4b$$
 
-For example, in the sequence 2, 5, 8, 11, … the common difference is 3. To find the next term, add 3 to the last term (11), which gives us 14. Therefore, the next term in the sequence is 14.
+## Example Problem 3.1
 
-### Geometric Sequence
-To find the next term in a geometric sequence, you need to multiply the last term by the common ratio (r).
+Simplify the expression: $2x + 5y + 3x - 2y$
 
-For example, in the sequence 3, 6, 12, 24, … the common ratio is 2. To find the next term, multiply the last term (24) by 2, which gives us 48. Therefore, the next term in the sequence is 48.
+***Solution***: We group the like terms and perform addition to obtain: $(2x + 3x) + (5y - 2y) = 5x + 3y$
 
-### Fibonacci Sequence
-To find the next number in the Fibonacci sequence, you need to add the two preceding numbers.
+##  Unit 4: Multiplying Expressions ## 
 
-For example, in the sequence 0, 1, 1, 2, 3, 5, … the two preceding numbers are 2 and 3. Adding them gives us 5, which is the next number in the sequence.
+We can multiply Algebraic Expressions by applying the distributive property of multiplication. The distributive property implies:
 
-# Examples
-## Example 1
-Find the 5th term of the arithmetic sequence with the first term (a) = 3 and the common difference (d) = -2.
+$$(a + b) \cdot c = a \cdot c + b \cdot c$$
 
-Solution:
-Using the formula for an arithmetic sequence, we have:
+When multiplying two expressions, we apply the distributive property to each term in one expression with each term in the other. Example of multiplying Algebraic Expressions:
 
-$$ a_n = a + (n - 1)d $$
+$$(2x + 3) \cdot (4y - 1) = 8xy - 2x + 12y - 3$$
 
-Substituting the values, we get:
+## Example Problem 4.1
 
-$$ a_5 = 3 + (5 - 1)(-2) = -5 $$
+Multiply the expressions: $5x(2x + 3y)$
 
-Therefore, the 5th term of the arithmetic sequence is -5.
+***Solution***: We apply the distributive property as: $5x \cdot 2x + 5x \cdot 3y = 10x^2 + 15xy$
 
-## Example 2
-Find the 8th term of the geometric sequence with the first term (a) = 9 and the common ratio (r) = 3.
+## Unit 5: Dividing Expressions ##
 
-Solution:
-Using the formula for a geometric sequence, we have:
+To divide Algebraic Expressions, we can cancel out like terms by dividing their coefficients. To divide an expression by a monomial, we can separate each term and divide each coefficient separately. Example of dividing Algebraic Expressions are:
 
-$$ a_n = a * r^{n-1} $$
+$$\frac{12km + 15kn}{3k} = 4m + 5n$$
 
-Substituting the values, we get:
+$$\frac{3x^2y^3 - 9x^2y}{-3xy} = -xy^2 + 3x$$
 
-$$ a_8 = 9 * 3^{8-1} = 6561 $$
+## Example Problem 5.1
 
-Therefore, the 8th term of the geometric sequence is 6561.
+Simplify the expression: $\frac{56ab}{7a}$
 
-## Example 3
-Find the next number in the Fibonacci sequence after 21.
-
-Solution:
-To find the next number in the Fibonacci sequence, we need to add the last two numbers:
-
-$$ 21 + 13 = 34 $$
-
-Therefore, the next number in the sequence after 21 is 34.
+***Solution***: We factor out 7a from the numerator as: $\frac{7a \cdot 8b}{7a} = 8b$.
 
 # Conclusion
-In conclusion, Number Sequences are an essential aspect of Mathematics that helps us understand the order and patterns in numbers. Understanding the different types of sequences and how to find the next number in a sequence can be very helpful in solving Math problems. We hope this tutorial has provided you with a comprehensive understanding of Number Sequences. Good luck with your studies!
 
-Total time taken: 1.823 minute(s)
+Algebraic Expressions are mathematical phrases that involve variables, constants, and operations. Like terms have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. We can add, subtract, multiply, or divide Algebraic Expressions by performing operations based on the properties of the terms. To solve Algebraic Expressions, we need to follow a step-by-step method that ensures the information is accurate and consistent. As you continue learning Algebraic Expressions, keep practicing, and applying your math skills to solve more complex problems. Thank you for following this Karu lesson on Algebraic Expressions from Icy Tutors.
+
+Total time taken: 1.554 minute(s)
 
