@@ -1,87 +1,134 @@
 
 Calling yarn x generate-presentation...
 
-# Introduction
+# **Introduction**
 
-Hello everyone, welcome to the Karu lesson on **Algebraic Expressions** from Icy Tutors. Algebraic Expressions is a fundamental topic that appears in math curriculums across different grade levels, including Grade 6. In this lesson, we will explore Algebraic Expressions in detail and understand how to apply this concept to solve problems. 
+Hello everyone, welcome to the Karu lesson on Measurement and Data Word Problems. In this lesson, we will explore the key concepts of measurement and data word problems, which involve solving problems that require the application of mathematical formulas and reasoning to real-world scenarios.
 
-# Units
+When it comes to measurement and data word problems, it is important to remember that measurements and data are essential tools used to understand and analyze the world around us. We use measurements to quantify physical phenomena, and data to draw conclusions and make decisions based on observations.
 
-1. What are Algebraic Expressions
-2. Like and Unlike Terms
-3. Adding and Subtracting Expressions
-4. Multiplying Expressions
-5. Dividing Expressions
+In the following sections, we will examine the major aspects of measurement and data word problems, including units of measurement, conversions, and data analysis.
 
-## Unit 1: What are Algebraic Expressions ##
+# **Section 1: Units of Measurement**
+The first section we will explore is units of measurement. In measurement, units are used to quantify and describe the physical properties of objects and phenomena. Some common units of measurement include meters, kilograms, seconds, and degrees.
 
-Algebraic Expressions are mathematical phrases that involve variables, constants, and operations like addition, subtraction, multiplication, and division. The variables in the expressions represent unknown values, while constants like numbers are known values. The operations indicate the operations required to perform calculations with the variables and constants. Examples of Algebraic Expressions include:
+## First Subsection: Length 
+Length is a physical property of an object, and the standard unit of measurement is the meter (m). Other common units of length include centimeters (cm) and millimeters (mm). To convert from one unit to another, we can use the following formulas:
 
-$$2x + 3~~~~~~~~~~~~~~~~6a + 4b~~~~~~~~~~~~~~~~x^2 - 5x + 6$$
+$$ 1 m = 100 cm $$
 
-## Example Problem 1.1 
-Write an Algebraic Expression for the statement: "five times a number plus two."
+$$ 1 m = 1000 mm $$
 
-***Solution***: We can use the variable 'n' to represent the unknown number. $5n + 2$ is the Algebraic Expression that matches the given statement.
+Let's look at an example problem:
 
-## Unit 2: Like and Unlike Terms ##
+**Example Problem:** Suppose a bookshelf has a length of 2 meters. What is the length of the bookshelf in millimeters?
 
-In Algebraic Expressions, terms are the parts of the expression that contain variables, constants, or a product of both. Like terms are the terms in an expression that have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. Example of like and unlike terms are:
+**Solution:** We can use the conversion factor:
 
-$$3x~~~~~~~~~~~~~~~~5x^2~~~~~~~~~~~~~~~~7y^3~~~~~~~~~~~~~~~~-2x~~~~~~~~~~~~~~~~9x^2~~~~~~~~~~~~~~~~-5xy^2$$
+$$ 2 m \cdot \frac{1000 mm}{1 m} = 2000 mm $$
 
-## Example Problem 2.1
-Identify the like and unlike terms in the expression: $3a^2 + 5ab - 2a^2 + 7b$
+Therefore, the length of the bookshelf in millimeters is 2000 mm.
 
-***Solution***: The like terms in the expression are $3a^2$ and $-2a^2$ because they both have the same power of 'a'. The unlike terms in the expression are $5ab$ and $7b$ because they have different variables.
+## Second Subsection: Weight
+Weight is a physical property of an object, and the standard unit of measurement is the kilogram (kg). Other common units of weight include grams (g) and pounds (lbs). To convert from one unit to another, we can use the following formulas:
 
-## Unit 3: Adding and Subtracting Expressions ##
+$$ 1 kg = 1000 g $$
 
-We can add or subtract Algebraic Expressions by grouping like terms. To add or subtract the coefficients of like terms, while keeping the variable and its corresponding exponent the same. Examples of adding and subtracting Algebraic Expressions are:
+$$ 1 kg = 2.2046 lbs $$
 
-$$5x + 3y - 2x + 5y = 3x + 8y$$
+Let's look at an example problem:
 
-$$6a^2b + 4b - 2ab^2 + 3ab + 7a^2b^2 = 7a^2b^2 + 6a^2b + ab^2 + 4b$$
+**Example Problem:** Suppose a box has a weight of 5 kilograms. What is the weight of the box in pounds?
 
-## Example Problem 3.1
+**Solution:** We can use the conversion factor:
 
-Simplify the expression: $2x + 5y + 3x - 2y$
+$$ 5 kg \cdot \frac{2.2046 lbs}{1 kg} = 11.023 lbs $$
 
-***Solution***: We group the like terms and perform addition to obtain: $(2x + 3x) + (5y - 2y) = 5x + 3y$
+Therefore, the weight of the box in pounds is 11.023 lbs.
 
-##  Unit 4: Multiplying Expressions ## 
+# **Section 2: Conversions**
 
-We can multiply Algebraic Expressions by applying the distributive property of multiplication. The distributive property implies:
+The next section we will examine is conversions. Conversions involve changing the units of measurement of a quantity without changing the quantity itself. Conversions are often used to express quantities in a more convenient unit for a particular application.
 
-$$(a + b) \cdot c = a \cdot c + b \cdot c$$
+## First Subsection: Time
+Time is a physical property of an event, and the standard unit of measurement is the second (s). Other common units include minutes, hours, and days. To convert from one unit to another, we can use the following formulas:
 
-When multiplying two expressions, we apply the distributive property to each term in one expression with each term in the other. Example of multiplying Algebraic Expressions:
+$$ 1 minute = 60 seconds $$
 
-$$(2x + 3) \cdot (4y - 1) = 8xy - 2x + 12y - 3$$
+$$ 1 hour = 60 minutes $$
 
-## Example Problem 4.1
+$$ 1 day = 24 hours $$
 
-Multiply the expressions: $5x(2x + 3y)$
+Let's look at an example problem:
 
-***Solution***: We apply the distributive property as: $5x \cdot 2x + 5x \cdot 3y = 10x^2 + 15xy$
+**Example Problem:** Suppose a soccer match lasted for 90 minutes. What is the equivalent time in hours?
 
-## Unit 5: Dividing Expressions ##
+**Solution:** We can use the conversion factor:
 
-To divide Algebraic Expressions, we can cancel out like terms by dividing their coefficients. To divide an expression by a monomial, we can separate each term and divide each coefficient separately. Example of dividing Algebraic Expressions are:
+$$ 90 min \cdot \frac{1 hour}{60 min} = 1.5 hours $$
 
-$$\frac{12km + 15kn}{3k} = 4m + 5n$$
+Therefore, the equivalent time in hours is 1.5 hours.
 
-$$\frac{3x^2y^3 - 9x^2y}{-3xy} = -xy^2 + 3x$$
+## Second Subsection: Temperature 
+Temperature is a physical property that expresses the degree of hotness or coldness of an object or environment. The standard unit of measurement is the degree Celsius (°C). Other common units include degrees Fahrenheit (°F) and Kelvin (K). To convert from one unit to another, we can use the following formulas:
 
-## Example Problem 5.1
+$$ °F = (°C \cdot 1.8) + 32 $$
 
-Simplify the expression: $\frac{56ab}{7a}$
+$$ K = °C + 273.15 $$
 
-***Solution***: We factor out 7a from the numerator as: $\frac{7a \cdot 8b}{7a} = 8b$.
+Let's look at an example problem:
 
-# Conclusion
+**Example Problem:** Suppose the temperature is 25 degrees Celsius. What is the equivalent temperature in Fahrenheit?
 
-Algebraic Expressions are mathematical phrases that involve variables, constants, and operations. Like terms have the same variables raised to the same power, while unlike terms have different variables or different powers of the same variables. We can add, subtract, multiply, or divide Algebraic Expressions by performing operations based on the properties of the terms. To solve Algebraic Expressions, we need to follow a step-by-step method that ensures the information is accurate and consistent. As you continue learning Algebraic Expressions, keep practicing, and applying your math skills to solve more complex problems. Thank you for following this Karu lesson on Algebraic Expressions from Icy Tutors.
+**Solution:** We can use the conversion factor:
 
-Total time taken: 1.554 minute(s)
+$$ 25°C \cdot 1.8 + 32 = 77°F $$
+
+Therefore, the equivalent temperature in Fahrenheit is 77°F.
+
+# **Section 3: Data Analysis**
+The final section we will examine is data analysis. Data analysis involves the interpretation and evaluation of data. Data can be represented in various forms, including tables, graphs, and charts.
+
+## First Subsection: Line Graphs
+A line graph is a type of graph that displays data as points connected by lines. This type of graph is often used to display trends over time. 
+
+Let's look at an example problem:
+
+**Example Problem:** The table below shows the number of apples sold by a fruit vendor on each day of the week. Create a line graph to display the data.
+
+|Day of the Week|Number of Apples Sold|
+|:---:|:---:|
+|Monday|10|
+|Tuesday|15|
+|Wednesday|20|
+|Thursday|25|
+|Friday|30|
+|Saturday|35|
+|Sunday|40|
+
+**Solution:** We can create the following line graph:
+
+![line_graph](https://i.imgur.com/elMSUC8.png)
+
+## Second Subsection: Bar Graphs
+A bar graph is a type of graph that uses rectangular bars to represent data. This type of graph is often used to compare different categories.
+
+Let's look at an example problem:
+
+**Example Problem:** The table below shows the number of students in a school who prefer different types of pizza. Create a bar graph to display the data.
+
+|Type of Pizza|Number of Students|
+|:---:|:---:|
+|Cheese|20|
+|Pepperoni|15|
+|Mushroom|10|
+
+**Solution:** We can create the following bar graph:
+
+![bar_graph](https://i.imgur.com/Sh3FXhb.png)
+
+# **Conclusion**
+Measurement and data word problems are an important aspect of mathematics that have practical applications in daily life. In this lesson, we explored the key concepts of units of measurement, conversions, and data analysis. By understanding and applying these concepts, we can solve real-world problems and make informed decisions based on data. We hope you found this lesson informative and useful, and encourage you to continue exploring the world of measurement and data.
+
+Total time taken: 1.622 minute(s)
 
