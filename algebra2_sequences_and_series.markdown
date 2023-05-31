@@ -1,7 +1,4 @@
 
-Calling yarn x generate-presentations...
-
-[33mWrote to ./out/scripts/Algebra-2_Sequences-and-Series_Understand-Geometric-Sequence.json[0m
 # Introduction
 
 Hello everyone! Welcome to the Karu lesson on **Geometric Sequences**. In this lesson, we will dive into the world of sequences and explore how geometric sequences work. A sequence is a list of numbers that follow a certain pattern. In a geometric sequence, each term is found by multiplying the previous term by a constant number, which is called the **common ratio**. We will go through all the major aspects of geometric sequences step by step, so let's get started!
@@ -101,9 +98,5 @@ So the sum of the first 7 terms is 78124.
 # Conclusion
 
 That's it for our lesson on geometric sequences! We learned that a geometric sequence is a list of numbers where each term is found by multiplying the previous term by a constant number, called the common ratio. We also learned how to find the n-th term of a geometric sequence, as well as how to find the sum of a finite and infinite geometric sequence. Keep practicing with example problems, and don't be afraid to use the formulas we learned to check your work. Good luck!
-[32mCompleted 1. There are 0 tasks remaining.[0m
-[33mUsed 1500 tokens to generate all such presentations ($0.003).
-[0m
 
-Total time taken: 1.507 minute(s)
 
