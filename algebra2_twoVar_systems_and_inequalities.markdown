@@ -6,7 +6,7 @@ Hello everyone, and welcome to the Karu lesson on Two Variable Systems of Equati
 
 The first part of two variable systems is solving systems of equations. A system of equations is a set of two or more equations with the same variables, and we must find the values of the variables that satisfy all the equations simultaneously. We can solve systems of equations in several ways, including substitution and elimination. Substitution involves isolating one variable in one equation and substituting its value into the other equation. Elimination involves adding or subtracting the equations to eliminate one variable and then solving for the other variable.
 
-Suppose we have the system of equations $$\begin{aligned}2x + 3y &= 12 \\4x - 3y &= 20\end{aligned}$$
+Suppose we have the system of equations $$\begin{align*}2x + 3y &= 12 \\4x - 3y &= 20\end{align*}$$
 We can solve this system using either substitution or elimination. For example, using substitution, we can isolate y in the first equation and substitute its value into the second equation. We get $$\begin{aligned}2x + 3y &= 12 \\4x - 3(4 - \frac{2x}{3}) &= 20\end{aligned}$$
 Simplifying, we get $$\begin{aligned}2x + 3y &= 12 \\4x - 12 + 2x &= 20\end{aligned}$$
 Solving for x, we get $x = 4$. Plugging this value into the first equation, we find that $y = 0$. Therefore, the solution to the system is $(4, 0)$.
