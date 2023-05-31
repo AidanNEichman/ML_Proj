@@ -9,17 +9,17 @@ Hello everyone! Welcome to the Karu lesson on **Geometric Sequences**. In this l
 
 To define a geometric sequence, we need to know the first term (a<sub>1</sub>) and the common ratio (r). The formula for finding the n-th term of a geometric sequence is:
 
-$$a_{n}=a_{1}\cdot r^{n-1}$$
+$$a_{n}=a_{1} \cdot r^{n-1}$$
 
 Here, n is the position of the term in the sequence. For example, if we have a geometric sequence with a<sub>1</sub> = 2 and r = 3, the first few terms would be:
 
 a<sub>1</sub> = 2
 
-a<sub>2</sub> = 2&nbsp;$\cdot$&nbsp;3<sup>1</sup> = 6
+a<sub>2</sub> = 2&nbsp;$ \cdot $&nbsp;3<sup>1</sup> = 6
 
-a<sub>3</sub> = 2&nbsp;$\cdot$&nbsp;3<sup>2</sup> = 18
+a<sub>3</sub> = 2&nbsp;$ \cdot $&nbsp;3<sup>2</sup> = 18
 
-a<sub>4</sub> = 2&nbsp;$\cdot$&nbsp;3<sup>3</sup> = 54
+a<sub>4</sub> = 2&nbsp;$ \cdot $&nbsp;3<sup>3</sup> = 54
 
 And so on...
 
